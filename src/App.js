@@ -5,7 +5,7 @@ import Home from './pages/hompage';
 
 function App() {
   return (
-    <section>
+    <section className="app">
       <Home></Home>
     </section>
   );

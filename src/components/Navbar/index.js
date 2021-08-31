@@ -22,6 +22,7 @@ const Navbar = (props) => {
             justifyContent: "center",
             textDecoration: "none",
             maxWidth: "15%",
+            margin: "20px"
         },
         navButtonsContainer: {
             display: "flex",
@@ -29,25 +30,37 @@ const Navbar = (props) => {
             flexWrap: "wrap",
             alignItems: "center",
             justifyContent: "space-evenly",
-            width: "75%",
+            width: "65%",
+            textDecoration: "none"
         },
-        navButtons: {
+        imageContainer: {
             display: "flex",
-            width: "100%",
+            flexDirection: "row",
+            flexWrap: "wrap",
+            width: "15%",
         },
+        imageStyle: {
+           alignSelf: "flex-start",
+            width: "100%",
+    
+        },
+    
     })
 
     const classes = useStyles();
 
-    const tabs = ['Home', 'Flow Meters', 'SCADA Work', 'Services']
+    const tabs = ['Home', 'Flow Meters', 'SCADA', 'Services']
     return (
         <nav id='nav-wrap' className={classes.navContainer}>
 
-            <h1 className={classes.colorHeader}>GT Environmental</h1>
+            <h1 style={{
+                fontSize: "28px",
+                // color: "#2e65b8"
+            }} className={classes.colorHeader}>GT Environmental</h1>
             <ul id='nav' className={classes.navButtonsContainer}>
                 {tabs.map(tab => (
-                    <li className="current hvr-underline-from-left" key={tab}>
-                        <a className='smoothscroll'
+                    <li className="navApp" key={tab}>
+                        <a className='navApp'
                             href={'#' + tab.toLowerCase()}
                             // Whenever a tab is clicked on,
                             // the current page is set through the handlePageChange props.
@@ -59,6 +72,11 @@ const Navbar = (props) => {
                     </li>
                 ))}
             </ul>
+            <Box className={classes.imageContainer}>
+                <img className={classes.imageStyle} alt="mccrometer logo" src="/images/Crom.png" />
+                <h5 className="authorized">Authorized Dealer</h5>
+            </Box>
+            
         </nav>
     )
 }

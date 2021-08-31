@@ -1,5 +1,26 @@
 .App {
   text-align: center;
+  
+}
+
+.navApp {
+  list-style: none!important;
+  text-decoration: none!important;
+  color: white!important;
+  font-size: 25px!important;
+}
+.navApp :hover {
+  color: #2e65b8!important;
+}
+
+.authorized {
+  margin: 0!important;
+  padding: 0!important;
+  text-align: center!important;
+  color: #2e65b8!important;
+  font-size: 25px;
+  word-spacing: -2px!important;
+  font-family: 'STIX Two Text', sans-serif, Impact, 'Times New Roman', Times, serif;
 }
 
 .App-logo {
@@ -25,7 +46,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #61dafb!important;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +56,92 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* homepage setup start */
+
+.aboutContainer {
+  display: flex!important;
+  flex-direction: row!important;
+  width: 100%;
+}
+
+.aboutPicBox {
+  display: flex!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  width: 30%!important;
+}
+
+.aboutPic {
+  width: 85%!important;
+  align-self: flex-end!important;
+  max-height: 300px!important;
+  margin: 20px!important;
+}
+
+.aboutTextContainer {
+  display: flex!important;
+  margin: 0px 0 0 15px!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  align-items: center!important;
+  align-content: flex-start!important;
+  justify-content: center!important;
+  width: 65%!important;
+}
+
+.aboutText {
+  display: flex!important;
+  justify-content: center!important;
+  align-self: center!important;
+  width: 100%!important;
+  margin: 0!important;
+  font-size: 30px!important;
+  text-decoration: underline!important;
+}
+
+.aboutInfo {
+  width: 90%;
+  align-self: flex-start!important;
+}
+
+/* image containers and image styles */
+
+.skillsContainer {
+  display: flex!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  width: 100%!important;
+}
+
+.img-container {
+  display: flex!important;
+  flex-direction: column!important;
+  flex-wrap: wrap!important;
+  width: 32%!important;
+}
+
+.skillImages {
+  width: 80%!important;
+  align-self: center!important;
+  max-height: 300px!important;
+  margin: 20px!important;
+}
+
+.skillText {
+  width: 60%;
+  align-self: center!important;
+}
+
+/* button styles learn more */
+
+.buttonStyles {
+  border: none!important;
+  color: #2e65b8!important;
+}
+
+.buttonStyles:hover {
+  background-color: #2e65b8!important;
+  color: white!important
 }
