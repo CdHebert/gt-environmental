@@ -10,7 +10,10 @@ const Navbar = (props) => {
             display: "flex",
             flexDirection: "row",
             color: "white",
-            backgroundColor: "grey",
+            backgroundImage: "url(/images/stoneBg.jpg)",
+            // backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
             width: "100%",
         },
         colorHeader: {
