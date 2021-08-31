@@ -22,7 +22,7 @@
   margin: 0!important;
   padding: 0!important;
   text-align: center!important;
-  color: #2e65b8!important;
+  color: #cedff8!important;
   font-size: 25px;
   word-spacing: -2px!important;
   font-family: 'STIX Two Text', sans-serif, Impact, 'Times New Roman', Times, serif;
@@ -71,7 +71,7 @@
   margin: 0!important;
   font-size: 30px!important;
   text-decoration: underline!important;
-  color: grey!important;
+  color: rgb(124, 124, 124)!important;
 }
 
 .aboutInfo {
