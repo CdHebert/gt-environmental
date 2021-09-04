@@ -1,7 +1,7 @@
 import React from 'react';
 // import { makeStyles, Box, Container, Button } from '@material-ui/core';
 
-import Navbar from '../components/Navbar'
+// import Navbar from '../components/Navbar'
 
 const Home = () => {
 
@@ -13,7 +13,7 @@ const Home = () => {
 
     return (
         <section>
-            <Navbar />
+            {/* <Navbar /> */}
             <div className="aboutContainer">
                 <div className="aboutTextContainer">
                 <h1 className="aboutText">What We Can Do</h1>

@@ -52,7 +52,7 @@ const Navbar = (props) => {
 
     const classes = useStyles();
 
-    const tabs = ['Home', 'Flow Meters', 'SCADA', 'Services']
+    const tabs = ['Home', 'Flow-Meters', 'SCADA', 'Services']
     return (
         <nav id='nav-wrap' className={classes.navContainer}>
 
