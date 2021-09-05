@@ -20,8 +20,6 @@ function App() {
         return <SCADA />;
       case 'Services':
         return <Services />;
-      // case 'Contact':
-      //   return <Contact />;
       default:
         return <Home />;
     }
@@ -44,8 +42,7 @@ function App() {
 
         </section>
       </div>
-      {/* <Footer
-          socialMedia={socialMedia} /> */}
+      {/* <Footer /> */}
     </section>
   );
 }

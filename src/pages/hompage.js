@@ -14,14 +14,14 @@ const Home = () => {
     return (
         <section>
             {/* <Navbar /> */}
-            <div className="aboutContainer">
-                <div className="aboutTextContainer">
-                <h1 className="aboutText">What We Can Do</h1>
-                <p className="aboutInfo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div className="whatWeDo">
+                <div className="whatTextContainer">
+                    <h1 className="aboutText">What We Can Do</h1>
+                    <p className="aboutInfo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 </div>
-                <div className="aboutPicBox">
-                    <img className="aboutPic" src="/images/placeholder.png" alt="30%" />
-                </div>
+                {/* <div className="whatAboutPicContainer">
+                    <img className="whatAboutPic" src="/images/placeholder.png" alt="30%" />
+                </div> */}
             </div>
             <div className="skillsContainer">
                 <div className="img-container">
@@ -40,13 +40,25 @@ const Home = () => {
                     <p className="skillText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<span><button className="buttonStyles">Learn More</button></span></p>
                 </div>
             </div>
-            <div className="aboutContainer">
-                <div className="aboutPicBox">
-                    <img className="aboutPic" src="/images/placeholder.png" alt="30%" />
+            <div className="aboutSection">
+                <div className="aboutContainer">
+                    <div className="aboutTextContainer">
+                        <h1 className="aboutText">About Us</h1>
+                    <div className="aboutPicBox">
+                        <img className="aboutPic" src="/images/placeholder.png" alt="30%" />
+                    </div>
+                        <p className="aboutInfo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five.</p>
+                    </div>
+
                 </div>
-                <div className="aboutTextContainer">
-                <h1 className="aboutText">About Us</h1>
-                <p className="aboutInfo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <div className="aboutContainer">
+                    <div className="aboutTextContainer">
+                        <h1 className="aboutText">Who We Are</h1>
+                    <div className="aboutPicBox">
+                        <img className="aboutPic" src="/images/placeholder.png" alt="30%" />
+                    </div>
+                        <p className="aboutInfo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to.</p>
+                    </div>
                 </div>
             </div>
 

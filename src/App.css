@@ -32,17 +32,65 @@
 
 /* homepage setup start */
 
-.aboutContainer {
+.whatWeDo {
+  background-image: url("./assets/images/firstBg.jpg");
+  margin-top: 40px!important;
   display: flex!important;
   flex-direction: row!important;
-  width: 100%;
+  width: 90%!important;
+  margin-left: 5%!important;
+  border: black solid 2px;
+  border-radius: 15px!important;
+}
+
+.whatTextContainer {
+  display: flex!important;
+  margin: 0px 0 0 15px!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  align-items: center!important;
+  align-content: flex-start!important;
+  justify-content: center!important;
+  width: 65%!important;
+}
+
+.whatAboutPicContainer {
+  display: flex!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  width: 30%!important;
+}
+
+
+.whatAboutPic {
+  width: 87%!important;
+  align-self: flex-end!important;
+  max-height: 300px!important;
+  margin: 20px!important;
+}
+
+.aboutSection {
+  width: 100%!important;
+  display: flex;
+  margin-top: 40px!important;
+  justify-content: space-around;
+}
+.aboutContainer {
+  display: flex!important;
+  flex-direction: column!important;
+  flex-wrap: wrap;
+  width: 40%!important;
+  align-content: center!important;
+  border: black solid 2px;
+  border-radius: 15px;
+  background-color: cadetblue!important;
 }
 
 .aboutPicBox {
   display: flex!important;
   flex-direction: row!important;
   flex-wrap: wrap!important;
-  width: 30%!important;
+  width: 60%!important;
 }
 
 .aboutPic {
@@ -66,7 +114,7 @@
 .aboutText {
   display: flex!important;
   justify-content: center!important;
-  align-self: center!important;
+  align-content: center!important;
   width: 100%!important;
   margin: 0!important;
   font-size: 30px!important;
@@ -85,7 +133,12 @@
   display: flex!important;
   flex-direction: row!important;
   flex-wrap: wrap!important;
-  width: 100%!important;
+  width: 90%!important;
+  border: black solid 2px!important;
+  background-color: cadetblue!important;
+  border-radius: 15px!important;
+  margin-left: 5%!important;
+  margin-top: 40px!important;
 }
 
 .img-container {
@@ -93,6 +146,7 @@
   flex-direction: column!important;
   flex-wrap: wrap!important;
   width: 32%!important;
+
 }
 
 .skillImages {
@@ -112,10 +166,17 @@
 .buttonStyles {
   border: none!important;
   color: #2e65b8!important;
-  background-color: rgb(184, 221, 253);;
+  background-color: cadetblue;
 }
 
 .buttonStyles:hover {
   background-color: #2e65b8!important;
   color: white!important
+}
+
+/* hr and other misc colors */
+
+.color {
+  color: grey!important;
+  background-color: grey!important;
 }
