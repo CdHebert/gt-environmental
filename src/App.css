@@ -33,7 +33,12 @@
 /* homepage setup start */
 
 .whatWeDo {
-  background-image: url("./assets/images/firstBg.jpg");
+  background-image: url("./assets/images/whatWeDo.png");
+  min-height: 60%!important;
+	min-width: 60%!important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
   margin-top: 40px!important;
   display: flex!important;
   flex-direction: row!important;
@@ -41,6 +46,8 @@
   margin-left: 5%!important;
   border: black solid 2px;
   border-radius: 15px!important;
+  background-color: cadetblue!important;
+  height: 200px!important;
 }
 
 .whatTextContainer {
@@ -49,9 +56,18 @@
   flex-direction: row!important;
   flex-wrap: wrap!important;
   align-items: center!important;
-  align-content: flex-start!important;
+  align-content: center!important;
   justify-content: center!important;
-  width: 65%!important;
+  width: 100%!important;
+  background-color: rgba(80, 80, 80, 0.3);
+}
+
+.whatText {
+  display: flex!important;
+  margin: 10px 0 0 15px!important;
+  width: 85%!important;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .whatAboutPicContainer {
@@ -67,67 +83,13 @@
   align-self: flex-end!important;
   max-height: 300px!important;
   margin: 20px!important;
-}
-
-.aboutSection {
-  width: 100%!important;
-  display: flex;
-  margin-top: 40px!important;
-  justify-content: space-around;
-}
-.aboutContainer {
-  display: flex!important;
-  flex-direction: column!important;
-  flex-wrap: wrap;
-  width: 40%!important;
-  align-content: center!important;
-  border: black solid 2px;
   border-radius: 15px;
-  background-color: cadetblue!important;
 }
+/* billboard end */
 
-.aboutPicBox {
-  display: flex!important;
-  flex-direction: row!important;
-  flex-wrap: wrap!important;
-  width: 60%!important;
-}
 
-.aboutPic {
-  width: 87%!important;
-  align-self: flex-end!important;
-  max-height: 300px!important;
-  margin: 20px!important;
-}
 
-.aboutTextContainer {
-  display: flex!important;
-  margin: 0px 0 0 15px!important;
-  flex-direction: row!important;
-  flex-wrap: wrap!important;
-  align-items: center!important;
-  align-content: flex-start!important;
-  justify-content: center!important;
-  width: 65%!important;
-}
-
-.aboutText {
-  display: flex!important;
-  justify-content: center!important;
-  align-content: center!important;
-  width: 100%!important;
-  margin: 0!important;
-  font-size: 30px!important;
-  text-decoration: underline!important;
-  color: rgb(124, 124, 124)!important;
-}
-
-.aboutInfo {
-  width: 90%;
-  align-self: flex-start!important;
-}
-
-/* image containers and image styles */
+/* image skill and image skill styles */
 
 .skillsContainer {
   display: flex!important;
@@ -154,6 +116,8 @@
   align-self: center!important;
   max-height: 300px!important;
   margin: 20px!important;
+  border-radius: 15px;
+  box-shadow: 8px 5px 12px black;
 }
 
 .skillText {
@@ -174,9 +138,123 @@
   color: white!important
 }
 
-/* hr and other misc colors */
-
-.color {
-  color: grey!important;
-  background-color: grey!important;
+/* who we are and what we do start */
+.aboutSection {
+  width: 100%!important;
+  display: flex;
+  margin-top: 40px!important;
+  justify-content: space-around;
 }
+.aboutContainer1 {
+  display: flex!important;
+  flex-direction: column!important;
+  flex-wrap: wrap;
+  width: 40%!important;
+  align-content: center!important;
+  border: black solid 2px;
+  border-radius: 15px;
+  background-color: cadetblue!important;
+}
+
+.aboutPicBox1 {
+  display: flex!important;
+  align-self: flex-start;
+  flex-wrap: wrap!important;
+  width: 10%!important;
+}
+
+.aboutTextContainer1 {
+  display: flex!important;
+  margin: 0px 0 0 15px!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  align-items: center!important;
+  align-content: flex-start!important;
+  justify-content: center!important;
+  width: 100%!important;
+}
+
+.aboutText1 {
+  display: flex!important;
+  justify-content: center!important;
+  align-content: center!important;
+  width: 100%!important;
+  margin: 0!important;
+  font-size: 30px!important;
+  text-decoration: underline!important;
+  color: rgb(211, 211, 211)!important;
+  margin-top: 10px!important;
+}
+
+.aboutInfo1 {
+  margin: 5px!important;
+  width: 100%!important;
+  flex-wrap: wrap;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.far {
+  font-size: 2em !important;
+  color: white!important;
+  margin: 5px!important;
+}
+
+.aboutContainer2 {
+  display: flex!important;
+  flex-direction: column!important;
+  flex-wrap: wrap;
+  width: 40%!important;
+  align-content: center!important;
+  border: black solid 2px;
+  border-radius: 15px;
+  background-color: cadetblue!important;
+}
+
+.aboutPicBox2 {
+  display: flex!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  width: 60%!important;
+}
+
+.aboutPic2 {
+  width: 100%!important;
+  align-self: flex-end!important;
+  max-height: 300px!important;
+  margin: 20px!important;
+  border-radius: 15px!important;
+  box-shadow: 8px 5px 12px black;
+}
+
+.aboutTextContainer2 {
+  display: flex!important;
+  margin: 0px 0 0 15px!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  align-items: center!important;
+  align-content: flex-start!important;
+  justify-content: center!important;
+  width: 65%!important;
+}
+
+.aboutText2 {
+  display: flex!important;
+  justify-content: center!important;
+  align-content: center!important;
+  width: 100%!important;
+  margin: 0!important;
+  font-size: 30px!important;
+  text-decoration: underline!important;
+  color: rgb(211, 211, 211)!important;
+}
+
+.aboutInfo2 {
+  margin: 10px 0 0 15px!important;
+  width: 100%!important;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+/* homepage end */
