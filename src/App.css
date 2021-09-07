@@ -196,7 +196,7 @@
 
 .far {
   font-size: 2em !important;
-  color: white!important;
+  color:  #2e65b8!important;
   margin: 5px!important;
 }
 
@@ -258,3 +258,101 @@
 
 
 /* homepage end */
+
+/* flowMeter section start */
+
+.flowSection {
+  display: flex!important;
+  flex-direction: row!important;
+}
+
+.flowInfoBox {
+  align-self: center!important;
+  width: 45%!important;
+  background-color: cadetblue!important;
+  border-radius: 15px!important;
+  margin-left: 20px!important;
+  margin-top: 20px!important;
+  border: 2px solid black!important;
+  box-shadow: black 5px 5px 15px;
+  margin-bottom: 15px!important;
+}
+
+.flowInfo {
+  padding: 0!important;
+  display: flex!important;
+  margin-top: 20px!important;
+  align-self: center!important;
+  width: 100%!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  align-content: center!important;
+  justify-content: center!important;
+  align-items: center!important;
+}
+
+.aboutMeterBox {
+  margin-top: 20px!important;
+  background-color: cadetblue!important;
+  width: 15%!important;
+  border: 2px solid black!important;
+  margin-left: 2%!important;
+  margin-right: 15px!important;
+  border-radius: 15px!important;
+  box-shadow: black 5px 5px 15px;
+  margin-bottom: 15px!important;
+}
+
+.aboutMeters {
+  text-decoration: none!important;
+  color: white!important;
+  font-size: 25px!important;
+}
+
+.aboutMeters:hover {
+  text-decoration: underline!important;
+  color: #2e65b8!important;
+}
+
+.buttonControl {
+  display: flex!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  align-content: center!important;
+  justify-content: center!important;
+  align-items: center!important;
+}
+
+.download {
+  text-decoration: none!important;
+  margin-top: 5px!important;
+  color: #2e65b8!important;
+  border: none!important;
+  border-radius: 5px!important;
+}
+
+.download:hover {
+  color: white!important;
+  background-color: #2e65b8;
+  
+}
+
+.fa-file-download {
+  font-size: 1.5em !important;
+  color:  black!important;
+  margin: 5px!important;
+}
+
+.fa-file-download:hover {
+  background-color: #2e65b8!important;
+  color: white!important;
+}
+
+.click {
+  font-size: 10px!important;
+  
+}
+
+.fa-arrow-left {
+  font-size: 10px!important;
+}

@@ -53,10 +53,10 @@ const Home = () => {
                             <i class="far fa-check-square"></i>
                         </div> */}
                         <div className="aboutInfo1">
-                            <p><i class="far fa-check-square"></i> Lorem Ipsum is simply dummy text of the printing</p>
-                            <p><i class="far fa-check-square"></i> Lorem Ipsum is simply dummy text of the printing</p>
-                            <p><i class="far fa-check-square"></i> Lorem Ipsum is simply dummy text of the printing</p>
-                            <p><i class="far fa-check-square"></i> Lorem Ipsum is simply dummy text of the printing</p>
+                            <p><i className="far fa-check-square"></i> Lorem Ipsum is simply dummy text of the printing</p>
+                            <p><i className="far fa-check-square"></i> Lorem Ipsum is simply dummy text of the printing</p>
+                            <p><i className="far fa-check-square"></i> Lorem Ipsum is simply dummy text of the printing</p>
+                            <p><i className="far fa-check-square"></i> Lorem Ipsum is simply dummy text of the printing</p>
                             
                         </div>
                     </div>

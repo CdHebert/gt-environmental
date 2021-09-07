@@ -1,47 +1,111 @@
-import React from "react";
+import React, { useState } from "react";
+import { Document, Page, pdfjs } from 'react-pdf';
+import FlowMags from "../components/FlowMeters";
 
+const FPI = "/pdfDocs/Fpi-Mag.pdf"
+const SPI = "/pdfDocs/Spi-Mag.pdf"
+const ProComm = "/pdfDocs/Pro-Comm.pdf"
 const FlowMeters = () => {
-return (
-    <section>
-    {/* <Navbar /> */}
-    <div className="aboutContainer">
-        <div className="aboutTextContainer">
-        <h1 className="aboutText">What We Can Do</h1>
-        <p className="aboutInfo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
-        <div className="aboutPicBox">
-            <img className="aboutPic" src="/images/placeholder.png" alt="30%" />
-        </div>
-    </div>
-    {/* <div className="skillsContainer">
-        <div className="img-container">
-            <img className="skillImages" src="/images/placeholder.png" alt="30%" />
-            <h4 className="aboutText">What We Sell</h4>
-            <p className="skillText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<span><button className="buttonStyles">Learn More</button></span></p>
-        </div> */}
-        {/* <div className="img-container">
-            <img className="skillImages" src="/images/placeholder.png" alt="30%" />
-            <h4 className="aboutText">SCADA</h4>
-            <p className="skillText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<span><button className="buttonStyles">Learn More</button></span></p>
-        </div>
-        <div className="img-container">
-            <img className="skillImages" src="/images/placeholder.png" alt="30%" />
-            <h4 className="aboutText">Services</h4>
-            <p className="skillText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<span><button className="buttonStyles">Learn More</button></span></p>
-        </div>
-    </div>
-    <div className="aboutContainer">
-        <div className="aboutPicBox">
-            <img className="aboutPic" src="/images/placeholder.png" alt="30%" />
-        </div>
-        <div className="aboutTextContainer">
-        <h1 className="aboutText">About Us</h1>
-        <p className="aboutInfo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
-    </div> */}
+    const renderPdf = () => {
+        switch (currentPdf) {
+            case 'Spi-Mag':
+                return SPI;
+            case 'Pro-Comm':
+                return ProComm;
+            default:
+                return FPI;
+        }
+    };
 
-</section>
-)
+    pdfjs.GlobalWorkerOptions.workerSrc =
+        `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
+    const [currentPdf, setCurrentPdf] = useState("FPI")
+    const [numPages, setNumPages] = useState(null);
+    const [pageNumber, setPageNumber] = useState(1);
+
+    /*To Prevent right click on screen*/
+    document.addEventListener("contextmenu", (event) => {
+        event.preventDefault();
+    });
+
+    const onDocumentLoadSuccess = ({ numPages }) => {
+        setNumPages(numPages);
+        setPageNumber(1)
+    }
+
+    function changePage(offset) {
+        setPageNumber(prevPageNumber => prevPageNumber + offset);
+    }
+
+    function previousPage() {
+        changePage(-1);
+    }
+
+    function nextPage() {
+        changePage(1);
+    }
+    return (
+        <section className="flowSection">
+            <div className="aboutMeterBox">
+                <FlowMags
+                    currentPdf={currentPdf}
+                    setCurrentPdf={setCurrentPdf}
+                />
+            </div>
+            <div className="flowInfoBox">
+                <Document
+                    className="flowInfo"
+                    file={renderPdf(currentPdf)}
+                    onLoadSuccess={onDocumentLoadSuccess}
+                >
+                    <Page pageNumber={pageNumber} />
+                </Document>
+                <div className="buttonControl">
+                    <div className="pagec">
+                        Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}
+                    </div>
+                    <div className="buttonc">
+                        <button
+                            type="button"
+                            disabled={pageNumber <= 1}
+                            onClick={previousPage}
+                            className="Pre"
+
+                        >
+                            Previous
+                        </button>
+                        <button
+                            type="button"
+                            disabled={pageNumber >= numPages}
+                            onClick={nextPage}
+
+                        >
+                            Next
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+            <div className="imageContainer">
+
+
+                <div className="imgBox">
+                    <img className="aboutPic2" src="/images/spiMag.jpg" alt="30%" />
+                </div>
+                <div className="imgBox">
+                    <img className="aboutPic2" src="/images/fpimag.png" alt="30%" />
+                </div>
+                <div className="imgBox">
+                    <img className="aboutPic2" src="/images/procomm.png" alt="30%" />
+                </div>
+
+
+            </div>
+
+        </section>
+    )
 }
 
 export default FlowMeters;
