@@ -273,6 +273,7 @@
   border-radius: 15px!important;
   margin-left: 20px!important;
   margin-top: 20px!important;
+  margin-right: 15px!important;
   border: 2px solid black!important;
   box-shadow: black 5px 5px 15px;
   margin-bottom: 15px!important;
@@ -425,7 +426,7 @@
 }
 
 .aboutPic3 {
-  width: 85%!important;
+  width: 65%!important;
   max-height: 300px!important;
   margin: 10px!important;
   border-radius: 15px;

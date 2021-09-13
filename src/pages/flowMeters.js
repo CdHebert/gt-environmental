@@ -93,13 +93,13 @@ const FlowMeters = () => {
 
 
                 <div className="imgBox">
-                    <img className="aboutPic3" src="/images/spiMag.jpg" alt="30%" />
+                    <img className="aboutPic3" src="/images/spiMag.jpg" alt="Single Profile Injection Mag Meter" />
                 </div>
                 <div className="imgBox">
-                    <img className="aboutPic3" src="/images/fpimag.png" alt="30%" />
+                    <img className="aboutPic3" src="/images/fpimag.png" alt="Full Profile Injection Mag Meter" />
                 </div>
                 <div className="imgBox">
-                    <img className="aboutPic3" src="/images/procomm.png" alt="30%" />
+                    <img className="aboutPic3" src="/images/procomm.png" alt="ProComm Electromagnetic Flow Meter Converter" />
                 </div>
 
 
