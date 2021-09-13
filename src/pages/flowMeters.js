@@ -76,6 +76,7 @@ const FlowMeters = () => {
                             Previous
                         </button>
                         <button
+                            className="next"
                             type="button"
                             disabled={pageNumber >= numPages}
                             onClick={nextPage}
@@ -92,13 +93,13 @@ const FlowMeters = () => {
 
 
                 <div className="imgBox">
-                    <img className="aboutPic2" src="/images/spiMag.jpg" alt="30%" />
+                    <img className="aboutPic3" src="/images/spiMag.jpg" alt="30%" />
                 </div>
                 <div className="imgBox">
-                    <img className="aboutPic2" src="/images/fpimag.png" alt="30%" />
+                    <img className="aboutPic3" src="/images/fpimag.png" alt="30%" />
                 </div>
                 <div className="imgBox">
-                    <img className="aboutPic2" src="/images/procomm.png" alt="30%" />
+                    <img className="aboutPic3" src="/images/procomm.png" alt="30%" />
                 </div>
 
 

@@ -7,7 +7,7 @@ const FlowMags = (props) => {
     return (
         <div>
 
-            <ul>
+            <section className="meterFlowSection">
                 {meters.map(meter => (
                     <h2 key={meter}>
                         <a className="aboutMeters"
@@ -17,8 +17,9 @@ const FlowMags = (props) => {
                             onClick={() => props.setCurrentPdf(meter)}
 
                         >
+                        <hr />
                             {meter}
-                        </a> <i class="fas fa-arrow-left"></i><span className="click"> Click Me</span>
+                        </a> <i className="fas fa-arrow-left"></i><span className="click"> Click Me</span>
                         <br/>
                         <button className="download"><a href={`/pdfDocs/${meter}.pdf`}  download>
                         PDF Download<i class="fas fa-file-download"></i>
@@ -26,7 +27,7 @@ const FlowMags = (props) => {
                         </button>
                     </h2>
                 ))}
-            </ul>
+            </section>
 
 
         </div>

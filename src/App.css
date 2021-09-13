@@ -325,10 +325,11 @@
 
 .download {
   text-decoration: none!important;
-  margin-top: 5px!important;
+  margin-top: 10px!important;
   color: #2e65b8!important;
   border: none!important;
   border-radius: 5px!important;
+  
 }
 
 .download:hover {
@@ -353,6 +354,79 @@
   
 }
 
+.pagec {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
 .fa-arrow-left {
   font-size: 10px!important;
+}
+
+.Pre {
+  background-color: #2e65b8!important;
+  margin-left: 3px!important;
+  margin-bottom: 5px!important;
+}
+
+.Pre:hover {
+  background-color: #cedff8!important;
+}
+.next {
+  background-color: #2e65b8!important;
+  width: 85px;
+  margin-left: 3px!important;
+  margin-bottom: 5px!important;
+}
+
+.next:hover {
+  background-color: #cedff8!important;
+}
+
+.imageContainer {
+  align-self: center!important;
+  width: 26%!important;
+  background-color: cadetblue!important;
+  border-radius: 15px!important;
+  margin-left: 20px!important;
+  margin-top: 20px!important;
+  border: 2px solid black!important;
+  box-shadow: black 5px 5px 15px;
+  margin-bottom: 15px!important;
+  height: 920px!important;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgBox {
+  display: flex!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  width: 100%!important;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.meterFlowSection {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutPic3 {
+  width: 85%!important;
+  max-height: 300px!important;
+  margin: 10px!important;
+  border-radius: 15px;
 }
