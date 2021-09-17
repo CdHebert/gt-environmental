@@ -12,7 +12,7 @@ return (
     // justifyContent: "center",
     fontSize: "50px"
 }}>Work In Progress Come Back Later For New Content!</h1>
-<img src="/images/maybe.jpg" style={{
+<img src="/images/maybe.jpg" alt="two people working on pipes" style={{
     width: "80%",
     height: "100%",
     display: "flex",
