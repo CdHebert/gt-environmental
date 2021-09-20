@@ -509,10 +509,48 @@
     width: 100%!important;
 }
 
-.aboutContainer1 {
+.aboutSection {
+  width: 100%!important;
+    display: flex!important;
+    margin-top: 40px!important;
+    justify-content: center!important;
+    flex-direction: column!important;
+    align-content: center!important;
+    align-items: center!important;
+}
 
+.aboutContainer1 {
+width: 89%!important;
+margin-bottom: 15px!important;
+}
+
+.aboutContainer2 {
+  flex-direction: column!important;
+  width: 89%!important;
+  margin-top: 15px!important;
+  margin-bottom: 15px!important;
+}
+
+.aboutPicBox2 {
+  display: flex!important;
+  flex-direction: column!important;
+  flex-wrap: wrap!important;
+  width: 100%!important;
+  margin: 0!important;
 }
   
+.aboutPic2 {
+  width: 100%!important;
+  margin: 0px!important;
+  margin-top: 10px!important;
+  border-radius: 15px!important;
+  box-shadow: 8px 5px 12px black;
+}
+
+.aboutInfo2 {
+  margin: 0!important;
+  margin-top: 10px!important;
+}
 
 /* navbar */
 .colorHeader {
