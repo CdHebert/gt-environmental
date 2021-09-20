@@ -27,6 +27,16 @@
   word-spacing: -2px!important;
   font-family: 'STIX Two Text', sans-serif, Impact, 'Times New Roman', Times, serif;
 }
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background-image: url(/images/stoneBg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
 /* navbar end */
 
 
@@ -430,4 +440,44 @@
   max-height: 300px!important;
   margin: 10px!important;
   border-radius: 15px;
+}
+
+/* media query 600 */
+
+@media only screen and (max-width: 600px) {
+  .whatText {
+    display: flex!important;
+    margin: 10px 0 0 15px!important;
+    width: 85%!important;
+    font-weight: bold;
+    font-size: 20px;
+    max-height: 95%;
+    overflow: scroll;
+  }
+
+  .skillsContainer{
+    display: flex!important;
+    flex-direction: column!important;
+    flex-wrap: wrap!important;
+    width: 100%!important;
+    border: black solid 2px!important;
+    background-color: cadetblue!important;
+    border-radius: 15px!important;
+    margin-left: 5%!important;
+    margin-top: 40px!important;
+    align-content: center!important;
+    justify-content: center!important;
+    align-items: center!important;
+  }
+
+  .img-container {
+    display: flex!important;
+    flex-direction: column!important;
+    width: 100%!important;
+}
+
+.aboutContainer1 {
+
+}
+  
 }
