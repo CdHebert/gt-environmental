@@ -575,4 +575,42 @@ margin-bottom: 15px!important;
 .mccromBox {
   width: 35%!important;
 }
+
+/* flowmeters */
+
+.flowSection {
+  display: flex!important;
+  flex-direction: column!important;
+}
+
+.aboutMeterBox {
+  margin: 0!important;
+  margin-top: 20px!important;
+  align-self: center!important;
+  width: 90%!important;
+  border-radius: 15px!important;
+  box-shadow: black 5px 5px 15px;
+  margin-bottom: 5px!important;
+}
+
+.meterFlowSection {
+  display: flex;
+  flex-direction: row!important;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.meters {
+  margin: 5px!important;
+  font-size: 15px!important;
+  width: 30%!important;
+  font-weight: normal!important;
+}
+
+.download {
+  padding: 0!important;
+  width: 70%;
+}
 }
