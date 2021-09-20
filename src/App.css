@@ -29,13 +29,48 @@
 }
 
 .navContainer {
-  display: flex;
-  flex-direction: row;
-  color: white;
-  background-image: url(/images/stoneBg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
+  display: flex!important;
+  flex-direction: row!important;
+  color: white!important;
+  background-image: url("./assets/images/stoneBg.jpg")!important;
+  background-size: cover!important;
+  background-repeat: no-repeat!important;
+  width: 100%!important;
+}
+
+.colorHeader {
+  display: flex!important;
+  flex-direction: row!important;
+  align-items: center!important;
+  align-self: center!important;
+  justify-content: center!important;
+  flex-wrap: wrap!important;
+  text-decoration: none!important;
+  max-width: 15%!important;
+  margin: 20px!important;
+}
+
+.navButtonContainer {
+  display: flex!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  align-self: center!important;
+  align-items: center!important;
+  justify-content: space-evenly!important;
+  width: 65%!important;
+  text-decoration: none!important;
+}
+
+.mccromBox {
+  display: flex!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  width: 15%!important;
+}
+
+.imgStyle {
+  align-self: flex-start!important;
+  width: 100%!important;
 }
 /* navbar end */
 
@@ -459,9 +494,7 @@
     display: flex!important;
     flex-direction: column!important;
     flex-wrap: wrap!important;
-    width: 100%!important;
-    border: black solid 2px!important;
-    background-color: cadetblue!important;
+    width: 89%!important;
     border-radius: 15px!important;
     margin-left: 5%!important;
     margin-top: 40px!important;
@@ -480,4 +513,28 @@
 
 }
   
+
+/* navbar */
+.colorHeader {
+  font-size: 15px!important;
+  margin: 0!important;
+  margin-left: 20px!important;
+  padding-left: 15px!important;
+}
+
+.navButtonContainer {
+  width: 35%!important;
+  display: flex!important;
+  flex-direction: column!important;
+  margin: 0!important;
+  padding-left: 10px!important;
+}
+
+.navApp {
+  font-size: 15px!important;
+}
+
+.mccromBox {
+  width: 35%!important;
+}
 }
