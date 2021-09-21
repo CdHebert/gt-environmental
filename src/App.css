@@ -38,6 +38,11 @@
   width: 100%!important;
 }
 
+.gtLogo {
+  margin: 10px!important;
+
+}
+
 .colorHeader {
   display: flex!important;
   flex-direction: row!important;
@@ -46,11 +51,15 @@
   justify-content: center!important;
   flex-wrap: wrap!important;
   text-decoration: none!important;
-  max-width: 15%!important;
-  margin: 20px!important;
+  max-width: 20%!important;
+  margin-left: 15px!important;
+  color: white;
+  font-size: 25px!important;
 }
 
 .navButtonContainer {
+  margin: 0!important;
+  padding: 0!important;
   display: flex!important;
   flex-direction: row!important;
   flex-wrap: wrap!important;
@@ -337,6 +346,12 @@
   align-items: center!important;
 }
 
+.react-pdf__Page__canvas {
+  margin: 0 auto;
+  width: 90% !important;
+  height: 100% !important;
+}
+
 .aboutMeterBox {
   margin-top: 20px!important;
   background-color: cadetblue!important;
@@ -442,7 +457,6 @@
   border: 2px solid black!important;
   box-shadow: black 5px 5px 15px;
   margin-bottom: 15px!important;
-  height: 920px!important;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -471,8 +485,7 @@
 }
 
 .aboutPic3 {
-  width: 65%!important;
-  max-height: 300px!important;
+  width: 95%!important;
   margin: 10px!important;
   border-radius: 15px;
 }
@@ -558,6 +571,7 @@ margin-bottom: 15px!important;
   margin: 0!important;
   margin-left: 20px!important;
   padding-left: 15px!important;
+  width: 300%!important;
 }
 
 .navButtonContainer {
@@ -566,6 +580,10 @@ margin-bottom: 15px!important;
   flex-direction: column!important;
   margin: 0!important;
   padding-left: 10px!important;
+}
+
+.gtLogo {
+  width: 100%!important;
 }
 
 .navApp {
@@ -612,5 +630,27 @@ margin-bottom: 15px!important;
 .download {
   padding: 0!important;
   width: 70%;
+}
+
+.flowInfoBox {
+  width: 90%!important;
+}
+
+.react-pdf__Page__canvas {
+  margin: 0 auto;
+  width: 90% !important;
+  height: 100% !important;
+  border-radius: 15px!important;
+}
+
+.imageContainer {
+  margin: 0!important;
+  width: 90%!important;
+}
+
+.aboutPic3 {
+  width: 95%!important;
+  margin: 10px!important;
+  border-radius: 15px;
 }
 }
