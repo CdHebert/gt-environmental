@@ -1,11 +1,11 @@
 .mainBg {
-  /* background-image: url(./assets/images/firstBg.jpg);
+  background-image: url(./assets/images/mountBG.jpg);
   min-height: 100%;
 	min-width: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover; */
-  background-color: rgb(184, 221, 253);
+	background-size: cover;
+  /* background-color: rgb(184, 221, 253); */
 }
 /* navbar start */
 .navApp {
@@ -87,7 +87,7 @@
 /* homepage setup start */
 
 .whatWeDo {
-  background-image: url("./assets/images/whatWeDo.png");
+  /* background-image: url("./assets/images/whatWeDo.png"); */
   min-height: 60%!important;
 	min-width: 60%!important;
 	background-position: center;
@@ -113,7 +113,7 @@
   align-content: center!important;
   justify-content: center!important;
   width: 100%!important;
-  background-color: rgba(80, 80, 80, 0.3);
+  /* background-color: rgba(80, 80, 80, 0.3); */
 }
 
 .whatText {
