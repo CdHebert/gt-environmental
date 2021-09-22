@@ -33,9 +33,14 @@
   flex-direction: row!important;
   color: white!important;
   background-image: url("./assets/images/stoneBg.jpg")!important;
+  opacity: 0.4;
   background-size: cover!important;
   background-repeat: no-repeat!important;
   width: 100%!important;
+}
+
+.navContainer:hover {
+  opacity: 0.9;
 }
 
 .gtLogo {
@@ -490,9 +495,95 @@
   border-radius: 15px;
 }
 
+/* media query 1100 */
+
+@media only screen and (max-width: 1100px){
+
+  .mainBg {
+    background-color: rgb(184, 221, 253)!important;
+    background-image: none!important;
+    background-size: 100% 100%!important;
+    overflow: hidden!important;
+  }
+
+  .whatText {
+    display: flex!important;
+    margin: 10px 0 0 15px!important;
+    width: 85%!important;
+    font-weight: bold;
+    font-size: 20px;
+    max-height: 95%;
+    overflow: scroll;
+  }
+
+  .flowSection {
+    display: flex!important;
+    flex-direction: column!important;
+  }
+  
+  .aboutMeterBox {
+    margin: 0!important;
+    margin-top: 20px!important;
+    align-self: center!important;
+    width: 90%!important;
+    border-radius: 15px!important;
+    box-shadow: black 5px 5px 15px;
+    margin-bottom: 5px!important;
+  }
+  
+  .meterFlowSection {
+    display: flex;
+    flex-direction: row!important;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .meters {
+    margin: 5px!important;
+    font-size: 15px!important;
+    width: 30%!important;
+    font-weight: normal!important;
+  }
+  
+  .download {
+    padding: 0!important;
+    width: 70%;
+  }
+  
+  .flowInfoBox {
+    width: 90%!important;
+  }
+  
+  .react-pdf__Page__canvas {
+    margin: 0 auto;
+    width: 90% !important;
+    height: 100% !important;
+    border-radius: 15px!important;
+  }
+  
+  .imageContainer {
+    margin: 0!important;
+    width: 90%!important;
+  }
+  
+  .aboutPic3 {
+    width: 95%!important;
+    margin: 10px!important;
+    border-radius: 15px;
+  }
+
+
+}
+
 /* media query 600 */
 
 @media only screen and (max-width: 600px) {
+  .mainBg {
+    background-color: rgb(184, 221, 253)!important;
+    background-image: none!important;
+  }
   .whatText {
     display: flex!important;
     margin: 10px 0 0 15px!important;
