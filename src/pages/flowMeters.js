@@ -8,9 +8,9 @@ const ProComm = "/pdfDocs/Pro-Comm.pdf"
 const FlowMeters = () => {
     const renderPdf = () => {
         switch (currentPdf) {
-            case 'Spi-Mag':
+            case 'Spi Meter':
                 return SPI;
-            case 'Pro-Comm':
+            case 'Pro Comm':
                 return ProComm;
             default:
                 return FPI;
