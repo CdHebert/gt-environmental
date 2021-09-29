@@ -43,7 +43,8 @@
   display: flex!important;
   flex-direction: row!important;
   color: white!important;
-  background-image: url("./assets/images/stoneBg.jpg")!important;
+  /* background-image: url("./assets/images/stoneBg.jpg")!important; */
+  background-color: rgba(156, 95, 55, 0.932)!important;
   opacity: 0.8;
   background-size: cover!important;
   background-repeat: no-repeat!important;
