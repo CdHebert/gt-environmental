@@ -94,9 +94,9 @@
 }
 
 .imgStyle {
-  align-self: flex-start!important;
+  align-self: center!important;
   width: 100%!important;
-  box-shadow: #2e65b8 15px 15px 15px!important;
+  box-shadow: #2e65b8 15px 25px 15px!important;
 }
 /* navbar end */
 
