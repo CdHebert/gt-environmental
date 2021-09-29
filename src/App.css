@@ -1,3 +1,12 @@
+/* video settings */
+.thisvideo {
+  display: flex!important;
+  border-radius: 15px!important;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px!important;
+}
+
 .mainBg {
   background-image: url(./assets/images/mountBG.jpg);
   min-height: 100%;
@@ -5,6 +14,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+  background-attachment: fixed;
   font-family: 'STIX Two Text', sans-serif, Impact, 'Times New Roman', Times, serif;
   /* background-color: rgb(184, 221, 253); */
 }
@@ -34,14 +44,14 @@
   flex-direction: row!important;
   color: white!important;
   background-image: url("./assets/images/stoneBg.jpg")!important;
-  opacity: 0.4;
+  opacity: 0.8;
   background-size: cover!important;
   background-repeat: no-repeat!important;
   width: 100%!important;
 }
 
 .navContainer:hover {
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .gtLogo {
@@ -86,6 +96,7 @@
 .imgStyle {
   align-self: flex-start!important;
   width: 100%!important;
+  box-shadow: #2e65b8 15px 15px 15px!important;
 }
 /* navbar end */
 
@@ -106,7 +117,7 @@
   margin-left: 5%!important;
   border: black solid 2px;
   border-radius: 15px!important;
-  background-color: cadetblue!important;
+  background-color: rgba(95, 158, 160, 0.9)!important;
   height: 200px!important;
 }
 
@@ -157,7 +168,7 @@
   flex-wrap: wrap!important;
   width: 90%!important;
   border: black solid 2px!important;
-  background-color: cadetblue!important;
+  background-color: rgba(95, 158, 160, 0.9)!important;
   border-radius: 15px!important;
   margin-left: 5%!important;
   margin-top: 40px!important;
@@ -213,7 +224,8 @@
   align-content: center!important;
   border: black solid 2px;
   border-radius: 15px;
-  background-color: cadetblue!important;
+  background-color: rgba(95, 158, 160, 0.9)!important;
+  margin-bottom: 15px!important;
 }
 
 .aboutPicBox1 {
@@ -268,7 +280,8 @@
   align-content: center!important;
   border: black solid 2px;
   border-radius: 15px;
-  background-color: cadetblue!important;
+  background-color: rgba(95, 158, 160, 0.9)!important;
+  margin-bottom: 15px!important;
 }
 
 .aboutPicBox2 {
@@ -329,7 +342,7 @@
 .flowInfoBox {
   align-self: center!important;
   width: 45%!important;
-  background-color: cadetblue!important;
+  background-color: rgba(95, 158, 160, 0.9)!important;
   border-radius: 15px!important;
   margin-left: 20px!important;
   margin-top: 20px!important;
@@ -360,7 +373,7 @@
 
 .aboutMeterBox {
   margin-top: 20px!important;
-  background-color: cadetblue!important;
+  background-color: rgba(95, 158, 160, 0.9)!important;
   width: 15%!important;
   border: 2px solid black!important;
   margin-left: 2%!important;
@@ -456,7 +469,7 @@
 .imageContainer {
   align-self: center!important;
   width: 26%!important;
-  background-color: cadetblue!important;
+  background-color: rgba(95, 158, 160, 0.9)!important;
   border-radius: 15px!important;
   margin-left: 20px!important;
   margin-top: 20px!important;
