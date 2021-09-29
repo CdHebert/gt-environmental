@@ -8,7 +8,7 @@ const SCADA = () => {
             flexDirection: "column"
         }}>
             <div className="thisvideo">
-<ReactPlayer url="https://youtu.be/https://www.youtube.com/watch?v=m9wdYy3tCm4" controls playbackRate = {2} width = "65%" height = "504px" alignSelf="center"/>
+<ReactPlayer url="https://youtu.be/https://www.youtube.com/watch?v=m9wdYy3tCm4" controls width = "65%" height = "504px" alignSelf="center"/>
 </div>
             <h1 style={{
                 display: "flex",
