@@ -1,7 +1,9 @@
 import React from 'react';
 
 
-const Home = () => {
+
+
+const Home = (props) => {
 
 
 
@@ -16,20 +18,19 @@ const Home = () => {
                 <div className="img-container">
                     <img className="skillImages" src="/images/fpiLarg.png" alt="30%" />
                     <h4 className="aboutText2">What We Sell</h4>
-                    <p className="skillText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<span><button
-                        className="buttonStyles"
-                        
-                        >Learn More</button></span></p>
+                    <p className="skillText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    
+                        </p>
                 </div>
                 <div className="img-container">
                     <img className="skillImages" src="/images/scadaPlaceholder.png" alt="30%" />
                     <h4 className="aboutText2">SCADA</h4>
-                    <p className="skillText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<span><button className="buttonStyles">Learn More</button></span></p>
+                    <p className="skillText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
                 <div className="img-container">
                     <img className="skillImages" src="/images/manholeInstall.png" alt="30%" />
                     <h4 className="aboutText2">Services</h4>
-                    <p className="skillText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<span><button className="buttonStyles">Learn More</button></span></p>
+                    <p className="skillText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
             </div>
             <div className="aboutSection">

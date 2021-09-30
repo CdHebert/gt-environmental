@@ -97,7 +97,7 @@
 .imgStyle {
   align-self: center!important;
   width: 100%!important;
-  box-shadow: #2e65b8 15px 25px 15px!important;
+  box-shadow: #2e65b8 15px 25px 25px!important;
 }
 /* navbar end */
 
@@ -202,7 +202,7 @@
 .buttonStyles {
   border: none!important;
   color: #2e65b8!important;
-  background-color: cadetblue;
+  background-color: rgba(95, 158, 160, 0)!important;
 }
 
 .buttonStyles:hover {
@@ -342,10 +342,10 @@
 
 .flowInfoBox {
   align-self: center!important;
-  width: 45%!important;
+  width: 55%!important;
   background-color: rgba(95, 158, 160, 0.9)!important;
   border-radius: 15px!important;
-  margin-left: 20px!important;
+  margin-left: 13%!important;
   margin-top: 20px!important;
   margin-right: 15px!important;
   border: 2px solid black!important;
@@ -385,9 +385,14 @@
 }
 
 .aboutMeters {
+  display: flex!important;
   text-decoration: none!important;
   color: white!important;
   font-size: 25px!important;
+  flex-wrap: wrap!important;
+  align-content: center!important;
+  justify-content: center!important;
+  align-items: center!important;
 }
 
 .aboutMeters:hover {
@@ -405,11 +410,19 @@
 }
 
 .download {
+  display:flex!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  align-content: center!important;
+  justify-content: center!important;
+  align-items: center!important;
   text-decoration: none!important;
   margin-top: 10px!important;
   color: #2e65b8!important;
   border: none!important;
   border-radius: 5px!important;
+  margin-top: 0!important;
+  margin-bottom: 20px!important;
   
 }
 
@@ -547,19 +560,21 @@
   }
   
   .meterFlowSection {
-    display: flex;
+    display: inline-flex!important;
     flex-direction: row!important;
+    flex-wrap: wrap!important;
+    align-content: center!important;
+    justify-content: center!important;
+    align-items: center!important;
+  }
+  
+  .meterSelection {
+    display: inline-flex!important;
+    flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-  }
-  
-  .meters {
-    margin: 5px!important;
-    font-size: 15px!important;
-    width: 30%!important;
-    font-weight: normal!important;
   }
   
   .download {

@@ -9,9 +9,8 @@ const FlowMags = (props) => {
 
             <section className="meterFlowSection">
                 {meters.map(meter => (
-                    <h2
-                    className="meters"
-                     key={meter}>
+                    <div
+                        key={meter}>
                         <a className="aboutMeters"
                             href={'#' + meter.toLowerCase()}
                             // Whenever a meter is clicked on,
@@ -20,13 +19,20 @@ const FlowMags = (props) => {
 
                         >
                             {meter}
-                        </a> <i className="fas fa-arrow-left"></i><span className="click">Click me</span>
-                        <br/>
-                        <button className="download"><a href={`/pdfDocs/${meter}.pdf`}  download>
-                        PDF Download<i class="fas fa-file-download"></i>
-                            </a> 
-                        </button>
-                    </h2>
+                        </a>
+                        <div className="imgBox">
+                            <a className="aboutMeters"
+                                href={'#' + meter.toLowerCase()}
+                                onClick={() => props.setCurrentPdf(meter)} >
+                                <img className="aboutPic3" src={`/images/${meter}.png`} alt="Mag Meter from McCrometer" />
+                            </a>
+                        </div>
+                        <br />
+                        <a className="download" href={`/pdfDocs/${meter}.pdf`} download>
+                            PDF Download<i class="fas fa-file-download"></i>
+                        </a>
+                        
+                    </div>
                 ))}
             </section>
 
