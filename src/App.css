@@ -72,6 +72,13 @@
   margin-left: 15px!important;
   color: white;
   font-size: 25px!important;
+  margin-right: 0!important;
+}
+
+.headerLogo {
+  width: 120px!important;
+  height: 120px!important;
+  opacity: 0.9;
 }
 
 .navButtonContainer {
@@ -100,6 +107,29 @@
   box-shadow: #2e65b8 15px 25px 25px!important;
 }
 /* navbar end */
+
+/* contact footer */
+
+.contactFoot {
+  background-color: rgba(156, 95, 55, 0.932)!important;
+  padding-top: 25px!important;
+  display: flex!important;
+  flex-direction: row!important;
+  align-content: center!important;
+  justify-content: flex-end!important;
+  align-items: flex-end!important;
+}
+
+.contactUsDiv {
+  
+}
+
+.createdBy {
+  font-size: 15px!important;
+  margin: 0!important;
+  margin-right: 15px!important;
+  color: #cedff8;
+}
 
 
 /* homepage setup start */

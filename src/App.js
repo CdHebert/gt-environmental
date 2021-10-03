@@ -5,6 +5,7 @@ import FlowMeters from './pages/flowMeters';
 import SCADA from './pages/SCADA';
 import Services from './pages/services';
 import Home from './pages/hompage';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -42,7 +43,7 @@ function App() {
 
         </section>
       </div>
-      {/* <Footer /> */}
+      <Contact />
     </section>
   );
 }

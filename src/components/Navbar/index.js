@@ -7,7 +7,10 @@ const Navbar = (props) => {
     return (
         <nav id='nav-wrap' className="navContainer">
 
-            <h1 className="colorHeader">GT Environmental</h1>
+            {/* <h1 className="colorHeader">GT Environmental</h1> */}
+            <div className="colorHeader">
+            <img className="headerLogo" alt="gt environmental logo" src="/images/environmental.png" />
+            </div>
             <ul id='nav' className="navButtonContainer">
                 {tabs.map(tab => (
                     <li className="navApp" key={tab}>
@@ -27,7 +30,7 @@ const Navbar = (props) => {
                 <img className="imgStyle" alt="mccrometer logo" src="/images/Crom.png" />
                 <h5 className="authorized">Authorized Dealer</h5>
             </div>
-            
+
         </nav>
     )
 }
