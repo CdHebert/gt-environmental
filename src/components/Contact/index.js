@@ -4,11 +4,18 @@ const Contact = () => {
 
 
     return (
-        <section>
+        <section className="footer">
+            <div className="contactUsDiv">
+                <a style={{
+                    textDecoration: "none",
+                    color: "white"
+                }}
+                    className="hvr-back-pulse"
+                    href="mailto:trhebert@gtenviro.com">
+                    <h1 className="contactH1 ">Contact Us<i class=" fas fa-envelope"></i></h1>
+                </a>
+            </div>
             <div className="contactFoot">
-                <div className="contactUsDiv">
-                    <h1>Contact Us<i class="fas fa-envelope"></i></h1>
-                </div>
                 <h1 className="createdBy">Created With Care by HebertCreations. ©2021</h1>
             </div>
         </section>

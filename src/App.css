@@ -112,25 +112,97 @@
 
 /* contact footer */
 
-.contactFoot {
+.footer {
   background-color: rgba(156, 95, 55, 0.932)!important;
-  padding-top: 25px!important;
+  display: flex!important;
+  flex-direction: row!important;
+}
+
+.contactFoot {
+  width: 50%!important;
   display: flex!important;
   flex-direction: row!important;
   align-content: center!important;
   justify-content: flex-end!important;
   align-items: flex-end!important;
+  align-self: flex-end!important;
 }
 
 .contactUsDiv {
-  
+  display: flex;
+  width: 50%!important;
+  margin-top: 0!important;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.contactH1 {
+  margin-top: 5px!important;
+  color: w!important;
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px!important;
+    margin-right: 15px!important;
+}
+
+.fas {
+  text-decoration:none!important;
+  font-size: 3em;
 }
 
 .createdBy {
+  display: flex!important;
   font-size: 15px!important;
   margin: 0!important;
   margin-right: 15px!important;
   color: #cedff8;
+  align-self: center!important;
+}
+
+@-webkit-keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(32, 152, 209, 0.75);
+  }
+}
+@keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(32, 152, 209, 0.75);
+  }
+}
+.hvr-back-pulse {
+  border-radius: 15px!important;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+  -webkit-animation-name: hvr-back-pulse;
+  animation-name: hvr-back-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-color: cadetblue;
+  background-color: cadetblue;
+  color: white;
 }
 
 
