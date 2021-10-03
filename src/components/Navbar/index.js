@@ -3,13 +3,15 @@ import React from 'react';
 
 const Navbar = (props) => {
 
-    const tabs = ['Home', 'Flow-Meters', 'SCADA', 'Services']
+    const tabs = [ 'Flow-Meters', 'SCADA', 'Services']
     return (
         <nav id='nav-wrap' className="navContainer">
 
             {/* <h1 className="colorHeader">GT Environmental</h1> */}
             <div className="colorHeader">
-            <img className="headerLogo" alt="gt environmental logo" src="/images/environmental.png" />
+                <a href="https://www.gtenvironmentalaz.com/">
+                    <img className="headerLogo" alt="gt environmental logo" src="/images/environmental.png" />
+                </a>
             </div>
             <ul id='nav' className="navButtonContainer">
                 {tabs.map(tab => (

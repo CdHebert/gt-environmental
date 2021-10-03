@@ -76,9 +76,11 @@
 }
 
 .headerLogo {
+  margin-top: 20px!important;
   width: 120px!important;
-  height: 120px!important;
+  height: 80px!important;
   opacity: 0.9;
+  margin-bottom: 0!important;
 }
 
 .navButtonContainer {
