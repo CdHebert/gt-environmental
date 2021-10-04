@@ -10,7 +10,7 @@ const Navbar = (props) => {
             {/* <h1 className="colorHeader">GT Environmental</h1> */}
             <div className="colorHeader">
                 <a href="https://www.gtenvironmentalaz.com/">
-                    <img className="headerLogo hvr-pulse-grow" alt="gt environmental logo" src="/images/GT1.png" />
+                    <img className="headerLogo hvr-pulse-grow" alt="gt environmental logo" src="/images/GT12.png" />
                 </a>
             </div>
             <ul id='nav' className="navButtonContainer">
