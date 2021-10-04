@@ -10,12 +10,12 @@ const Navbar = (props) => {
             {/* <h1 className="colorHeader">GT Environmental</h1> */}
             <div className="colorHeader">
                 <a href="https://www.gtenvironmentalaz.com/">
-                    <img className="headerLogo" alt="gt environmental logo" src="/images/environmental.png" />
+                    <img className="headerLogo hvr-pulse-grow" alt="gt environmental logo" src="/images/environmental.png" />
                 </a>
             </div>
             <ul id='nav' className="navButtonContainer">
                 {tabs.map(tab => (
-                    <li className="navApp" key={tab}>
+                    <li className="navApp hvr-pulse-grow" key={tab}>
                         <a className='navApp'
                             href={'#' + tab.toLowerCase()}
                             // Whenever a tab is clicked on,

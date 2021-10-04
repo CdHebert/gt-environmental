@@ -68,20 +68,51 @@
   justify-content: center!important;
   flex-wrap: wrap!important;
   text-decoration: none!important;
-  max-width: 20%!important;
-  margin-left: 15px!important;
-  color: white;
-  font-size: 25px!important;
+  width: 20%!important;
   margin-right: 0!important;
 }
 
 .headerLogo {
   margin-top: 20px!important;
-  width: 120px!important;
-  height: 80px!important;
+  width: 100px!important;
+  height: 60px!important;
   opacity: 0.9;
   margin-bottom: 0!important;
+  padding-right: 30px!important;
 }
+
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+.hvr-pulse-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
 
 .navButtonContainer {
   margin: 0!important;
@@ -92,7 +123,7 @@
   align-self: center!important;
   align-items: center!important;
   justify-content: space-evenly!important;
-  width: 65%!important;
+  width: 52%!important;
   text-decoration: none!important;
 }
 
@@ -100,7 +131,7 @@
   display: flex!important;
   flex-direction: row!important;
   flex-wrap: wrap!important;
-  width: 15%!important;
+  width: 25%!important;
 }
 
 .imgStyle {
@@ -115,27 +146,27 @@
 .footer {
   background-color: rgba(156, 95, 55, 0.932)!important;
   display: flex!important;
-  flex-direction: row!important;
+  flex-direction: column!important;
 }
 
 .contactFoot {
-  width: 50%!important;
+  /* width: 50%!important; */
   display: flex!important;
   flex-direction: row!important;
   align-content: center!important;
-  justify-content: flex-end!important;
-  align-items: flex-end!important;
-  align-self: flex-end!important;
+  justify-content: center!important;
+  align-items: center!important;
+  align-self: center!important;
 }
 
 .contactUsDiv {
   display: flex;
-  width: 50%!important;
+  /* width: 50%!important; */
   margin-top: 0!important;
   flex-wrap: wrap;
-  align-content: flex-end;
-  justify-content: flex-end;
-  align-items: flex-end;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
 }
 
