@@ -11,26 +11,57 @@ const Home = (props) => {
         <section>
             <div className="whatWeDo">
                 <div className="whatTextContainer">
-                    <p className="whatText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p className="whatText">GT Environmental is an instrumentation and controls company that services Arizona, New Mexico, Nevada and Southwest Colorado. GT Environmental is also a McCrometer authorized dealer, installer and service center. We also provide instrumentation and control services to municipalities for Water and Waste Water Facilities along with mining and agriculture.<br/>
+                    We provide full services for insertion flow meters that include pipe saddle installation and weld-o-lets for hot tapping purposes. We also provide the electrical installation and start-up for the flow meter and any integration into the customer’s SCADA System. Along with our installation services we also provide flow meter testing and verification.</p>
                 </div>
             </div>
             <div className="skillsContainer">
                 <div className="img-container">
                     <img className="skillImages" src="/images/fpiLarg.png" alt="30%" />
                     <h4 className="aboutText2">What We Sell</h4>
-                    <p className="skillText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    
-                        </p>
+                    <ul className="skillText">
+                        <p>We offer:</p>
+
+                        <li> McCrometer Full Profile Insertion (FPI)</li>
+
+                        <li> McCrometer Single Point Insertion (SPI)</li>
+                    </ul>
                 </div>
                 <div className="img-container">
                     <img className="skillImages" src="/images/scadaPlaceholder.png" alt="30%" />
                     <h4 className="aboutText2">SCADA</h4>
-                    <p className="skillText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <ul className="skillText">
+                        <p> We offer programming services for the following:</p>
+
+                        <li>Allen Bradley</li>
+
+                        <li>Modicon</li>
+
+                        <li>Intellution</li>
+
+                        <li>Wonderware</li>
+
+                        <li>RSView 32</li>
+
+                        <li>Red Lion</li>
+
+                        <li>Ignition</li>
+
+                    </ul>
                 </div>
                 <div className="img-container">
                     <img className="skillImages" src="/images/manholeInstall.png" alt="30%" />
                     <h4 className="aboutText2">Services</h4>
-                    <p className="skillText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <ul className="skillText">
+                        <p>We offer:</p>
+
+                        <li>Pipe Hot Tapping</li>
+
+                        <li>Insertion Flow Meter Installations</li>
+
+                        <li>Electrical Services for Motor Control Systems, VFDs, PLC controls and PLC replacements</li>
+
+                    </ul>
                 </div>
             </div>
             <div className="aboutSection">
@@ -38,10 +69,10 @@ const Home = (props) => {
                     <h1 className="aboutText1">What We Do</h1>
                     <div className="aboutTextContainer1">
                         <div className="aboutInfo1">
-                            <p><i className="far fa-check-square"></i> Lorem Ipsum is simply dummy text of the printing</p>
-                            <p><i className="far fa-check-square"></i> Lorem Ipsum is simply dummy text of the printing</p>
-                            <p><i className="far fa-check-square"></i> Lorem Ipsum is simply dummy text of the printing</p>
-                            <p><i className="far fa-check-square"></i> Lorem Ipsum is simply dummy text of the printing</p>
+                            <p><i className="far fa-check-square"></i> We are a full service provider for McCrometer Insertion Flow Meters</p>
+                            <p><i className="far fa-check-square"></i>   Offer continuous Technical Support for all of our customers</p>
+                            <p><i className="far fa-check-square"></i>   Specialize in troubleshooting of control and automation systems</p>
+                            <p><i className="far fa-check-square"></i> Program new and existing SCADA Systems for customer changes and upgrades</p>
 
                         </div>
                     </div>
@@ -53,7 +84,7 @@ const Home = (props) => {
                         <div className="aboutPicBox2">
                             <img className="aboutPic2" src="/images/aboutUs.jpg" alt="30%" />
                         </div>
-                        <p className="aboutInfo2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to.</p>
+                        <p className="aboutInfo2">GT Environmental is a family owned business in the state of Arizona for the past 10 years. Before becoming a Manufacturer’s Representative for McCrometer we were involved with the Integration of the majority of Water and Waste Water Plants in the state of Arizona for the past 25 years.</p>
                     </div>
                 </div>
             </div>
