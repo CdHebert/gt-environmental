@@ -45,14 +45,10 @@
   color: white!important;
   /* background-image: url("./assets/images/stoneBg.jpg")!important; */
   background-color: rgba(156, 95, 55, 0.932)!important;
-  opacity: 0.8;
+  opacity: 1;
   background-size: cover!important;
   background-repeat: no-repeat!important;
   width: 100%!important;
-}
-
-.navContainer:hover {
-  opacity: 1;
 }
 
 .gtLogo {
@@ -81,6 +77,10 @@
   padding-right: 30px!important;
 }
 
+.headerLogo:hover + #home {
+  opacity: 0.9!important;
+}
+
 @-webkit-keyframes hvr-pulse-grow {
   to {
     -webkit-transform: scale(1.1);
@@ -103,8 +103,8 @@
 .hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
   -webkit-animation-name: hvr-pulse-grow;
   animation-name: hvr-pulse-grow;
-  -webkit-animation-duration: 0.3s;
-  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
@@ -138,6 +138,23 @@
   width: 100%!important;
   box-shadow: #2e65b8 15px 25px 25px!important;
 }
+
+.hidden-home {
+  text-decoration: none!important;
+  opacity: 0!important;
+  position: absolute;
+  /* right: 15px!important; */
+  left: 13em!important;
+}
+
+.colorHeader:hover .hidden-home {
+  opacity: 1!important;
+}
+
+.fas {
+  font-size: 25px!important;
+}
+
 /* navbar end */
 
 /* contact footer */

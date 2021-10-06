@@ -8,10 +8,10 @@ const Navbar = (props) => {
         <nav id='nav-wrap' className="navContainer">
 
             {/* <h1 className="colorHeader">GT Environmental</h1> */}
-            <div className="colorHeader">
+            <div className="colorHeader hvr-pulse-grow">
                 <a href="https://www.gtenvironmentalaz.com/">
-                    <img className="headerLogo hvr-pulse-grow" alt="gt environmental logo" src="/images/GT12.png" />
-                </a>
+                    <img className="headerLogo" alt="gt environmental logo" src="/images/GT12.png" />
+                </a><span id="home" className="hidden-home "><i class="fas fa-hand-point-left"></i> Click to go Home!</span>
             </div>
             <ul id='nav' className="navButtonContainer">
                 {tabs.map(tab => (
