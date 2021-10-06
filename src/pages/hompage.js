@@ -4,8 +4,23 @@ import React from 'react';
 
 
 const Home = (props) => {
+    let french = new Audio("/sounds/french.mp3");
+    let noneShallPass = new Audio("/sounds/passnone.mp3");
+    let knight = new Audio("/sounds/knightni.wav");
+    let camelot = new Audio("/sounds/model.wav")
 
-
+    const start1 = () => {
+        french.play()
+      }
+    const start2 = () => {
+        noneShallPass.play()
+      }
+    const start3 = () => {
+        knight.play()
+      }
+    const start4 = () => {
+        camelot.play()
+      }
 
     return (
         <section>
@@ -17,7 +32,7 @@ const Home = (props) => {
             </div>
             <div className="skillsContainer">
                 <div className="img-container">
-                    <img className="skillImages" src="/images/fpiLarg.png" alt="30%" />
+                    <img onClick={start2} className="skillImages" src="/images/fpiLarg.png" alt="30%" />
                     <h4 className="aboutText2">What We Sell</h4>
                     <ul className="skillText">
                         <p>We offer:</p>
@@ -28,7 +43,7 @@ const Home = (props) => {
                     </ul>
                 </div>
                 <div className="img-container">
-                    <img className="skillImages" src="/images/scadaPlaceholder.png" alt="30%" />
+                    <img onClick={start4} className="skillImages" src="/images/scadaPlaceholder.png" alt="30%" />
                     <h4 className="aboutText2">SCADA</h4>
                     <ul className="skillText">
                         <p> We offer programming services for the following:</p>
@@ -50,7 +65,7 @@ const Home = (props) => {
                     </ul>
                 </div>
                 <div className="img-container">
-                    <img className="skillImages" src="/images/manholeInstall.png" alt="30%" />
+                    <img onClick={start3} className="skillImages" src="/images/manholeInstall.png" alt="30%" />
                     <h4 className="aboutText2">Services</h4>
                     <ul className="skillText">
                         <p>We offer:</p>
@@ -82,7 +97,7 @@ const Home = (props) => {
                     <div className="aboutTextContainer2">
                         <h1 className="aboutText1">Who We Are</h1>
                         <div className="aboutPicBox2">
-                            <img className="aboutPic2" src="/images/aboutUs.jpg" alt="30%" />
+                            <img onClick={start1} className="aboutPic2" src="/images/aboutUs.jpg" alt="30%" />
                         </div>
                         <p className="aboutInfo2">GT Environmental is a family owned business in the state of Arizona for the past 10 years. Before becoming a Manufacturer’s Representative for McCrometer we were involved with the Integration of the majority of Water and Waste Water Plants in the state of Arizona for the past 25 years.</p>
                     </div>
