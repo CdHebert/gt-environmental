@@ -30,7 +30,7 @@ const FlowMags = (props) => {
                         </div>
                         <br />
                         <a className="download" href={`/pdfDocs/${meter}.pdf`} download>
-                            PDF Download<i class="fas fa-file-download"></i>
+                            PDF Download<i className="fas fa-file-download"></i>
                         </a>
                         
                     </div>

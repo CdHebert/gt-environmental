@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="colorHeader hvr-pulse-grow">
                 <Link to="/">
                     <img className="headerLogo" alt="gt environmental logo" src="/images/GT12.png" />
-                </Link><span id="home" className="hidden-home "><i class="fas fa-hand-point-left"></i> Click to go Home!</span>
+                </Link><span id="home" className="hidden-home "><i className="fas fa-hand-point-left"></i> Click to go Home!</span>
             </div>
             <ul id='nav' className="navButtonContainer">
                 <Link className="navApp hvr-pulse-grow" to='/meters'>Flow Meters</Link>
