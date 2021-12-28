@@ -267,7 +267,7 @@
   flex-direction: row!important;
   width: 90%!important;
   margin-left: 5%!important;
-  border: black solid 2px;
+  /* border: black solid 2px; */
   border-radius: 15px!important;
   background-color: rgba(95, 158, 160, 0.9)!important;
   height: 200px!important;
@@ -289,8 +289,8 @@
   display: flex!important;
   margin: 10px 0 0 15px!important;
   width: 85%!important;
-  font-weight: bold;
-  font-size: 20px;
+  /* font-weight: bold; */
+  /* font-size: 20px; */
 }
 
 .whatAboutPicContainer {
@@ -319,7 +319,7 @@
   flex-direction: row!important;
   flex-wrap: wrap!important;
   width: 90%!important;
-  border: black solid 2px!important;
+  /* border: black solid 2px!important; */
   background-color: rgba(95, 158, 160, 0.9)!important;
   border-radius: 15px!important;
   margin-left: 5%!important;
@@ -374,7 +374,7 @@
   flex-wrap: wrap;
   width: 40%!important;
   align-content: center!important;
-  border: black solid 2px;
+  /* border: black solid 2px; */
   border-radius: 15px;
   background-color: rgba(95, 158, 160, 0.9)!important;
   margin-bottom: 15px!important;
@@ -414,8 +414,8 @@
   margin: 5px!important;
   width: 100%!important;
   flex-wrap: wrap;
-  font-weight: bold;
-  font-size: 20px;
+  /* font-weight: bold;
+  font-size: 20px; */
 }
 
 .far {
@@ -430,7 +430,7 @@
   flex-wrap: wrap;
   width: 40%!important;
   align-content: center!important;
-  border: black solid 2px;
+  /* border: black solid 2px; */
   border-radius: 15px;
   background-color: rgba(95, 158, 160, 0.9)!important;
   margin-bottom: 15px!important;
@@ -477,8 +477,8 @@
 .aboutInfo2 {
   margin: 10px 0 0 15px!important;
   width: 100%!important;
-  font-weight: bold;
-  font-size: 20px;
+  /* font-weight: bold;
+  font-size: 20px; */
 }
 
 
@@ -499,7 +499,7 @@
   margin-left: 13%!important;
   margin-top: 20px!important;
   margin-right: 15px!important;
-  border: 2px solid black!important;
+  /* border: 2px solid black!important; */
   box-shadow: black 5px 5px 15px;
   margin-bottom: 15px!important;
 }
@@ -527,7 +527,7 @@
   margin-top: 20px!important;
   background-color: rgba(95, 158, 160, 0.9)!important;
   width: 15%!important;
-  border: 2px solid black!important;
+  /* border: 2px solid black!important; */
   margin-left: 2%!important;
   margin-right: 15px!important;
   border-radius: 15px!important;
@@ -638,7 +638,7 @@
   border-radius: 15px!important;
   margin-left: 20px!important;
   margin-top: 20px!important;
-  border: 2px solid black!important;
+  /* border: 2px solid black!important; */
   box-shadow: black 5px 5px 15px;
   margin-bottom: 15px!important;
   display: flex;
@@ -689,7 +689,7 @@
     display: flex!important;
     margin: 10px 0 0 15px!important;
     width: 85%!important;
-    font-weight: bold;
+    /* font-weight: normal!important; */
     font-size: 20px;
     max-height: 95%;
     overflow: scroll;

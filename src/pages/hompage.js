@@ -5,34 +5,34 @@ import React from 'react';
 
 const Home = (props) => {
     let french = new Audio("/sounds/french.mp3");
-    let noneShallPass = new Audio("/sounds/passnone.mp3");
-    let knight = new Audio("/sounds/knightni.wav");
-    let camelot = new Audio("/sounds/model.wav")
+    // let noneShallPass = new Audio("/sounds/passnone.mp3");
+    // let knight = new Audio("/sounds/knightni.wav");
+    // let camelot = new Audio("/sounds/model.wav")
 
     const start1 = () => {
         french.play()
-      }
-    const start2 = () => {
-        noneShallPass.play()
-      }
-    const start3 = () => {
-        knight.play()
-      }
-    const start4 = () => {
-        camelot.play()
-      }
+    }
+    // const start2 = () => {
+    //     noneShallPass.play()
+    // }
+    // const start3 = () => {
+    //     knight.play()
+    // }
+    // const start4 = () => {
+    //     camelot.play()
+    // }
 
     return (
         <section>
             <div className="whatWeDo">
                 <div className="whatTextContainer">
-                    <p className="whatText">GT Environmental is an instrumentation and controls company that services Arizona, New Mexico, Nevada and Southwest Colorado. GT Environmental is also a McCrometer authorized dealer, installer and service center. We also provide instrumentation and control services to municipalities for Water and Waste Water Facilities along with mining and agriculture.<br/>
-                    We provide full services for insertion flow meters that include pipe saddle installation and weld-o-lets for hot tapping purposes. We also provide the electrical installation and start-up for the flow meter and any integration into the customer’s SCADA System. Along with our installation services we also provide flow meter testing and verification.</p>
+                    <p className="whatText">GT Environmental is an instrumentation and controls company that services Arizona, New Mexico, Nevada and Southwest Colorado. GT Environmental is also a McCrometer authorized dealer, installer and service center. We also provide instrumentation and control services to municipalities for Water and Waste Water Facilities along with mining and agriculture.<br />
+                        We provide full services for insertion flow meters that include pipe saddle installation and weld-o-lets for hot tapping purposes. We also provide the electrical installation and start-up for the flow meter and any integration into the customer’s SCADA System. Along with our installation services we also provide flow meter testing and verification.</p>
                 </div>
             </div>
             <div className="skillsContainer">
                 <div className="img-container">
-                    <img onClick={start2} className="skillImages" src="/images/fpiLarg.png" alt="30%" />
+                    <img  className="skillImages" src="/images/fpiLarg.png" alt="30%" />
                     <h4 className="aboutText2">What We Sell</h4>
                     <ul className="skillText">
                         <p>We offer:</p>
@@ -43,7 +43,7 @@ const Home = (props) => {
                     </ul>
                 </div>
                 <div className="img-container">
-                    <img onClick={start4} className="skillImages" src="/images/scadaPlaceholder.png" alt="30%" />
+                    <img  className="skillImages" src="/images/scadaPlaceholder.png" alt="30%" />
                     <h4 className="aboutText2">SCADA</h4>
                     <ul className="skillText">
                         <p> We offer programming services for the following:</p>
@@ -65,7 +65,7 @@ const Home = (props) => {
                     </ul>
                 </div>
                 <div className="img-container">
-                    <img onClick={start3} className="skillImages" src="/images/manholeInstall.png" alt="30%" />
+                    <img  className="skillImages" src="/images/manholeInstall.png" alt="30%" />
                     <h4 className="aboutText2">Services</h4>
                     <ul className="skillText">
                         <p>We offer:</p>
