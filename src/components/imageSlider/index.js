@@ -20,7 +20,7 @@ const ImageSlider = ({ slides }) => {
     }
 
     return (
-        <section className='pipe-container'>
+        <div className='pipe-container'>
             <GoArrowLeft className='left-arrow' onClick={prevSlide} />
             <GoArrowRight className='right-arrow' onClick={nextSlide} />
             {SliderData.map((images, index) => {
@@ -29,13 +29,14 @@ const ImageSlider = ({ slides }) => {
                     className={index === currentImg ? 'slide active' : 'slide'} 
                     key={index} 
                     >
+                        {/* <h1>Pipe Work</h1> */}
                         {index === currentImg && (
                             <img src={images.image} alt={images} className='pipe-img' />
                         )}
                     </div>
                 )
             })}
-        </section>
+        </div>
 
     )
 }

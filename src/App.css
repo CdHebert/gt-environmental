@@ -677,8 +677,8 @@
 
 .left-arrow {
   position: absolute;
-  top: 50%;
-  left: 32px;
+  top: 35%;
+  left: 400px;
   font-size: 3rem;
   color: #000;
   z-index: 10;
@@ -688,8 +688,8 @@
 
 .right-arrow {
   position: absolute;
-  top: 50%;
-  right: 32px;
+  top: 35%;
+  right: 400px;
   font-size: 3rem;
   color: #000;
   z-index: 10;
@@ -698,28 +698,46 @@
 }
 
 .pipe-container {
-  position: relative;
-  height: 100vh;
+  /* position: relative; */
+  /* height: 100vh; */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .pipe-img {
-  width: 1000px;
-  height: 600px;
+  width: 100%;
+  height: 300px;
   border-radius: 10px;
+  margin: 25px!important;
 }
 
 .slide {
+  display: flex;
   opacity: 0;
   transition-duration: 1s ease;
 }
 
 .slide.active {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   opacity: 1;
   transition-duration: 1s;
-  transform: scale(1.08);
+  transform: scale(1.03);
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.newContainer {
+  /* background-color: cadetblue; */
+  display: flex;
+  flex-direction: column;
 }
 
 /* media query 1100 */
