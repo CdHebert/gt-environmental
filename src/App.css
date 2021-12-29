@@ -713,13 +713,15 @@
   margin: 25px!important;
 }
 
-.slide {
+.slide,
+.newSlide {
   display: flex;
   opacity: 0;
   transition-duration: 1s ease;
 }
 
-.slide.active {
+.slide.active,
+.newSlide.reactive {
   width: 45%;
   display: flex;
   flex-direction: column;
@@ -738,6 +740,22 @@
   /* background-color: cadetblue; */
   display: flex;
   flex-direction: column;
+}
+
+
+
+.wire-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+align-self: center;
+}
+
+.wire-img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  margin: 25px!important;
 }
 
 /* media query 1100 */
