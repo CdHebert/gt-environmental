@@ -21,10 +21,12 @@ const WireSlider = ({ slides }) => {
 
     return (
         <div className='wire-container'>
+            {/* <GoArrowLeft className='mid-left-arrow' onClick={prevSlide} />
+            <GoArrowRight className='mid-right-arrow' onClick={nextSlide} /> */}
             <GoArrowLeft className='mid-left-arrow' onClick={prevSlide} />
-            <GoArrowRight className='mid-right-arrow' onClick={nextSlide} />
             {WiringData.map((wire, index) => {
                 return (
+
                     <div
                         className={index === currentWire ? 'newSlide reactive' : 'newSlide'}
                         key={index}
@@ -35,6 +37,7 @@ const WireSlider = ({ slides }) => {
                     </div>
                 )
             })}
+            <GoArrowRight className='mid-right-arrow' onClick={nextSlide} />
         </div>
 
     )

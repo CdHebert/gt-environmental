@@ -44,7 +44,7 @@
   flex-direction: row!important;
   color: white!important;
   /* background-image: url("./assets/images/stoneBg.jpg")!important; */
-  background-color: rgba(156, 95, 55, 0.932)!important;
+  background-color: rgba(156, 95, 55, 0.6)!important;
   opacity: 1;
   background-size: cover!important;
   background-repeat: no-repeat!important;
@@ -136,7 +136,7 @@
 .imgStyle {
   align-self: center!important;
   width: 100%!important;
-  box-shadow: #2e65b8 15px 25px 25px!important;
+  box-shadow: #2e65b8 35px 15px 25px!important;
 }
 
 .hidden-home {
@@ -160,7 +160,7 @@
 /* contact footer */
 
 .footer {
-  background-color: rgba(156, 95, 55, 0.932)!important;
+  background-color: rgba(156, 95, 55, 0.6)!important;
   display: flex!important;
   flex-direction: column!important;
 }
@@ -269,7 +269,7 @@
   margin-left: 5%!important;
   /* border: black solid 2px; */
   border-radius: 15px!important;
-  background-color: rgba(95, 158, 160, 0.9)!important;
+  background-color: rgba(95, 158, 160, 0.4)!important;
   height: 200px!important;
 }
 
@@ -320,7 +320,7 @@
   flex-wrap: wrap!important;
   width: 90%!important;
   /* border: black solid 2px!important; */
-  background-color: rgba(95, 158, 160, 0.9)!important;
+  background-color: rgba(95, 158, 160, 0.4)!important;
   border-radius: 15px!important;
   margin-left: 5%!important;
   margin-top: 40px!important;
@@ -376,7 +376,7 @@
   align-content: center!important;
   /* border: black solid 2px; */
   border-radius: 15px;
-  background-color: rgba(95, 158, 160, 0.9)!important;
+  background-color: rgba(95, 158, 160, 0.4)!important;
   margin-bottom: 15px!important;
 }
 
@@ -432,7 +432,7 @@
   align-content: center!important;
   /* border: black solid 2px; */
   border-radius: 15px;
-  background-color: rgba(95, 158, 160, 0.9)!important;
+  background-color: rgba(95, 158, 160, 0.4)!important;
   margin-bottom: 15px!important;
 }
 
@@ -494,7 +494,7 @@
 .flowInfoBox {
   align-self: center!important;
   width: 55%!important;
-  background-color: rgba(95, 158, 160, 0.9)!important;
+  background-color: rgba(95, 158, 160, 0.4)!important;
   border-radius: 15px!important;
   margin-left: 13%!important;
   margin-top: 20px!important;
@@ -525,7 +525,7 @@
 
 .aboutMeterBox {
   margin-top: 20px!important;
-  background-color: rgba(95, 158, 160, 0.9)!important;
+  background-color: rgba(95, 158, 160, 0.4)!important;
   width: 15%!important;
   /* border: 2px solid black!important; */
   margin-left: 2%!important;
@@ -634,7 +634,7 @@
 .imageContainer {
   align-self: center!important;
   width: 26%!important;
-  background-color: rgba(95, 158, 160, 0.9)!important;
+  background-color: rgba(95, 158, 160, 0.4)!important;
   border-radius: 15px!important;
   margin-left: 20px!important;
   margin-top: 20px!important;
@@ -675,38 +675,45 @@
 }
 /* pipe images start */
 
-.left-arrow {
-  position: absolute;
-  top: 35%;
-  left: 400px;
-  font-size: 3rem;
-  color: #000;
-  z-index: 10;
-  cursor: pointer;
-  user-select: none;
-}
-
-.right-arrow {
-  position: absolute;
-  top: 35%;
-  right: 400px;
-  font-size: 3rem;
-  color: #000;
-  z-index: 10;
-  cursor: pointer;
-  user-select: none;
-}
-
-.pipe-container {
-  /* position: relative; */
-  /* height: 100vh; */
+.left-arrow,
+.mid-left-arrow,
+.right-arrow,
+.mid-right-arrow {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  /* margin-right: 15px; */
+}
+
+.right-arrow,
+.mid-right-arrow {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  /* margin-left: 15px; */
+}
+
+.pipe-container,
+.wire-container {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.pipe-img {
+.pipe-img,
+.wire-img {
   width: 100%;
   height: 300px;
   border-radius: 10px;
@@ -739,23 +746,14 @@
 .newContainer {
   /* background-color: cadetblue; */
   display: flex;
-  flex-direction: column;
+  flex-direction:row;
 }
 
-
-
-.wire-container {
-display: flex;
-flex-direction: column;
-align-items: center;
-align-self: center;
-}
-
-.wire-img {
-  width: 100%;
-  height: 300px;
-  border-radius: 10px;
-  margin: 25px!important;
+.center {
+  display: flex;
+  justify-content: center;
+  color: #cedff8;
+  background-color: rgba(95, 158, 160, 0.4)!important;
 }
 
 /* media query 1100 */
