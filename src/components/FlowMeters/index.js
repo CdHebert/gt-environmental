@@ -1,4 +1,5 @@
 import React from 'react';
+// import { Link } from 'react-router-dom';
 
 const FlowMags = (props) => {
 
@@ -29,7 +30,7 @@ const FlowMags = (props) => {
                         </div>
                         <br />
                         <a className="download" href={`/pdfDocs/${meter}.pdf`} download>
-                            PDF Download<i class="fas fa-file-download"></i>
+                            PDF Download<i className="fas fa-file-download"></i>
                         </a>
                         
                     </div>
