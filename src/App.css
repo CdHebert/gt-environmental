@@ -761,9 +761,13 @@
 @media only screen and (max-width: 1100px){
 
   .mainBg {
-    background-color: rgb(184, 221, 253)!important;
-    background-image: none!important;
-    background-size: 100% 100%!important;
+    background-image: url(./assets/images/mountBG.jpg);
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     overflow: hidden!important;
   }
 
@@ -844,8 +848,13 @@
 
 @media only screen and (max-width: 600px) {
   .mainBg {
-    background-color: rgb(184, 221, 253)!important;
-    background-image: none!important;
+    background-image: url(./assets/images/mountBG.jpg);
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
   .whatText {
     display: flex!important;
