@@ -1,32 +1,38 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { WiringData } from '../imageSlider/sliderData'
-import { GoArrowLeft, GoArrowRight } from 'react-icons/go'
+// import { GoArrowLeft, GoArrowRight } from 'react-icons/go'
 
 
 const WireSlider = ({ slides }) => {
     const [currentWire, setCurrentWire] = useState(0)
     const length = slides.length;
+    const timeoutRef = useRef(null)
+    const delay = 3500;
 
-    const nextSlide = () => {
-        setCurrentWire(currentWire === length - 1 ? 0 : currentWire + 1)
+    function resetTimeout() {
+        if (timeoutRef.current) {
+            clearTimeout(timeoutRef.current);
+        }
     }
 
-    const prevSlide = () => {
-        setCurrentWire(currentWire === 0 ? length - 1 : currentWire - 1)
-    }
+    useEffect(() => {
+        resetTimeout();
+        timeoutRef.current = setTimeout(
+            () =>
+                setCurrentWire((prevImg) =>
+                    prevImg === length - 1 ? 0 : prevImg + 1
+                ),
+            delay
+        );
 
-    if (!Array.isArray(slides) || slides.length <= 0) {
-        return null;
-    }
-
+        return () => {
+            resetTimeout();
+        }
+    })
     return (
         <div className='wire-container'>
-            {/* <GoArrowLeft className='mid-left-arrow' onClick={prevSlide} />
-            <GoArrowRight className='mid-right-arrow' onClick={nextSlide} /> */}
-            <GoArrowLeft className='mid-left-arrow' onClick={prevSlide} />
             {WiringData.map((wire, index) => {
                 return (
-
                     <div
                         className={index === currentWire ? 'newSlide reactive' : 'newSlide'}
                         key={index}
@@ -35,9 +41,20 @@ const WireSlider = ({ slides }) => {
                             <img src={wire.images} alt={wire} className='wire-img' />
                         )}
                     </div>
+
                 )
-            })}
-            <GoArrowRight className='mid-right-arrow' onClick={nextSlide} />
+            })}           
+                <div className="slideshowDots">
+                    {WiringData.map((_, idx) => (
+                        <div
+                            key={idx}
+                            className={`slideshowDot${currentWire === idx ? " active" : ""}`}
+                            onClick={() => {
+                                setCurrentWire(idx);
+                            }}
+                        ></div>
+                    ))}
+                </div>
         </div>
 
     )

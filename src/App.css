@@ -707,7 +707,7 @@
 .wire-container {
   width: 50%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -756,6 +756,27 @@
   justify-content: center;
   color: #cedff8;
   background-color: rgba(95, 158, 160, 0.4)!important;
+}
+
+/* imported css for slideshow */
+.slideshowDots {
+  text-align: center;
+}
+
+.slideshowDot {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+
+  cursor: pointer;
+  margin: 15px 7px 0px;
+
+  background-color: rgba(95, 158, 160, 0.8);
+}
+
+.slideshowDot.active {
+  background-color: rgba(192, 209, 209, 1);
 }
 
 /* media query 1100 */
