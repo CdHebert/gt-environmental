@@ -4,23 +4,21 @@ import { SliderData, WiringData } from "../components/imageSlider/sliderData";
 import WireSlider from "../components/WiringSlider";
 
 const Services = () => {
-    return (
+        return (
 
-        <section className="sectionContainer">
-            <h1 className="center">Pipe and Wire</h1>
-            <div className="newContainer">
-                <ImageSlider slides={SliderData} />
-                <WireSlider slides={WiringData} />
-            </div>
-            <h1 className="center">Panels and SCADA</h1>
-            <div className="newContainer">
-                <ImageSlider slides={SliderData} />
-                <WireSlider slides={WiringData} />
-            </div>
+            <section className="sectionContainer">
+                <h1 className="center">Pipe and Wire</h1>
+                <div className="newContainer">
+                    <ImageSlider slides={SliderData} />
+                    <WireSlider slides={WiringData} />
+                </div>
+                <h1 className="center">Panels and SCADA</h1>
+                <div className="newContainer">
+                    <ImageSlider slides={SliderData} />
+                    <WireSlider slides={WiringData} />
+                </div>
+            </section>
+        )
+    }
 
-
-        </section>
-    )
-}
-
-export default Services;
+    export default Services;

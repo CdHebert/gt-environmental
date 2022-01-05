@@ -725,6 +725,8 @@
   display: flex;
   opacity: 0;
   transition-duration: 1s ease;
+  white-space: nowrap;
+  transition: ease 1000ms;
 }
 
 .slide.active,
