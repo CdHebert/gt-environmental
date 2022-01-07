@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { WiringData } from '../imageSlider/sliderData'
-import { useSpring, a } from '@react-spring/web'
+import { useSpring, a, animated, config } from '@react-spring/web'
 
 import styles from '../../assets/css/styles.module.css'
 
@@ -10,7 +10,7 @@ const WireSlider = ({ slides }) => {
     const [currentWire, setCurrentWire] = useState(0)
     const length = slides.length;
     const timeoutRef = useRef(null)
-    const delay = 55500;
+    const delay = 3500;
 
     function resetTimeout() {
         if (timeoutRef.current) {
@@ -33,6 +33,23 @@ const WireSlider = ({ slides }) => {
         }
     })
 
+    const [{ background }] = useSpring(
+        () => ({
+            from: {
+                background: currentWire,
+            },
+            to: {
+                background: currentWire,
+            },
+            config: config.molasses,
+            loop: {
+                reverse: true,
+            },
+        }),
+        []
+        )
+    
+
     const [flipped, set] = useState(false)
     const { transform, opacity } = useSpring({
         opacity: flipped ? 1 : 0,
@@ -42,51 +59,39 @@ const WireSlider = ({ slides }) => {
 
 
     return (
-        // <div className={styles.container} onClick={() => set(state => !state)}>
-
-        /* <a.div
-            className={`${styles.c} ${styles.front}`}
-            style={{
-                opacity,
-                transform,
-                rotateX: '180deg',
-            }}
-        > */
-
-
-
-        < div onClick={() => set(state => !state)} className={`wire-container ${styles.container}`} >
+        < div className={`wire-container ${styles.container}`} >
             <a.div
+                onClick={() => set(state => !state)}
                 className={`${styles.c} ${styles.back}`}
                 style={{ opacity: opacity.to(o => 1 - o), transform }}
             >
                 <h2>Hello and Welcome</h2>
                 <p>this is what we offer with our wire work on panels you can expect great things</p>
-                </a.div>
-            {
-                WiringData.map((wire, index) => {
+            </a.div>
+            { WiringData.map((wire, index) => {
                     return (
-                        <a.div
+                        <a.div onClick={() => set(state => !state)}
                             // className={``}
                             style={{
                                 opacity,
                                 transform,
                                 rotateX: '180deg',
                             }}
-                            className={index === currentWire ? ` ${styles.front} newSlide reactive ` : `newSlide`}
+                            className={index === currentWire ? `  newSlide reactive ` : `newSlide`}
                             key={index}
                         >
-                            {index === currentWire && (
-                                <img src={wire.images} alt={wire} className='wire-img' />
-                            )}
+                            <animated.div style={{background }}>
+
+                                {index === currentWire && (
+                                    <img src={wire.images} alt={wire} className='wire-img' />
+                                )}
+                            </animated.div>
 
                         </a.div>
                     )
                 })
             }
 
-            {/* </div > */}
-            {/* </a.div> */}
             < div className="slideshowDots" >
                 {
                     WiringData.map((_, idx) => (

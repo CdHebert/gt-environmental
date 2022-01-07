@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -32,18 +33,21 @@ const Home = (props) => {
             </div>
             <div className="skillsContainer">
                 <div className="img-container">
-                    <img  className="skillImages" src="/images/fpiLarg.png" alt="30%" />
-                    <h4 className="aboutText2">What We Sell</h4>
+                    <img className="skillImages" src="/images/fpiLarg.png" alt="30%" />
+                    <h4 className="aboutText2">Flow Meters</h4>
                     <ul className="skillText">
                         <p>We offer:</p>
 
                         <li> McCrometer Full Profile Insertion (FPI)</li>
 
                         <li> McCrometer Single Point Insertion (SPI)</li>
+                        <Link to='/meters'>
+                            <li>Click here for more information</li>
+                        </Link>
                     </ul>
                 </div>
                 <div className="img-container">
-                    <img  className="skillImages" src="/images/scadaPlaceholder.png" alt="30%" />
+                    <img className="skillImages" src="/images/scadaPlaceholder.png" alt="30%" />
                     <h4 className="aboutText2">SCADA</h4>
                     <ul className="skillText">
                         <p> We offer programming services for the following:</p>
@@ -61,11 +65,14 @@ const Home = (props) => {
                         <li>Red Lion</li>
 
                         <li>Ignition</li>
+                        <Link to='/scada'>
+                            <li>Click here for more information</li>
+                        </Link>
 
                     </ul>
                 </div>
                 <div className="img-container">
-                    <img  className="skillImages" src="/images/manholeInstall.png" alt="30%" />
+                    <img className="skillImages" src="/images/manholeInstall.png" alt="30%" />
                     <h4 className="aboutText2">Services</h4>
                     <ul className="skillText">
                         <p>We offer:</p>
@@ -75,7 +82,9 @@ const Home = (props) => {
                         <li>Insertion Flow Meter Installations</li>
 
                         <li>Electrical Services for Motor Control Systems, VFDs, PLC controls and PLC replacements</li>
-
+                        <Link to='/services'>
+                            <li>Click here for more information</li>
+                        </Link>
                     </ul>
                 </div>
             </div>
