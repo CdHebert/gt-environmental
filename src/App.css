@@ -102,7 +102,7 @@
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(233, 228, 228, 0);
 }
 .hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
   -webkit-animation-name: hvr-pulse-grow;
@@ -126,7 +126,7 @@
   align-self: center!important;
   align-items: center!important;
   justify-content: space-evenly!important;
-  width: 52%!important;
+  width: 58%!important;
   text-decoration: none!important;
 }
 
@@ -140,7 +140,6 @@
 .imgStyle {
   align-self: center!important;
   width: 100%!important;
-  box-shadow: #2e65b8 35px 15px 25px!important;
 }
 
 .hidden-home {
@@ -344,7 +343,7 @@
   max-height: 300px!important;
   margin: 20px!important;
   border-radius: 15px;
-  box-shadow: 8px 5px 12px black;
+  box-shadow: 8px 5px 12px #e6e5f1;
 }
 
 .skillText {
@@ -462,7 +461,7 @@
   max-height: 300px!important;
   margin: 20px!important;
   border-radius: 15px!important;
-  box-shadow: 8px 5px 12px black;
+  box-shadow: 8px 5px 12px #e6e5f1;
 }
 
 .aboutTextContainer2 {
