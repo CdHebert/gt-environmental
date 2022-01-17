@@ -25,12 +25,7 @@ const Home = (props) => {
 
     return (
         <section>
-            <div className="whatWeDo">
-                <div className="whatTextContainer">
-                    <p className="whatText">GT Environmental is an instrumentation and controls company that services Arizona, New Mexico, Nevada and Southwest Colorado. GT Environmental is also a McCrometer authorized dealer, installer and service center. We also provide instrumentation and control services to municipalities for Water and Waste Water Facilities along with mining and agriculture.<br />
-                        We provide full services for insertion flow meters that include pipe saddle installation and weld-o-lets for hot tapping purposes. We also provide the electrical installation and start-up for the flow meter and any integration into the customer’s SCADA System. Along with our installation services we also provide flow meter testing and verification.</p>
-                </div>
-            </div>
+            
             <div className="skillsContainer">
                 <div className="img-container">
                     <img className="skillImages" src="/images/fpiLarg.png" alt="30%" />
@@ -77,11 +72,11 @@ const Home = (props) => {
                     <ul className="skillText">
                         <p>We offer:</p>
 
-                        <li>Pipe Hot Tapping</li>
+                        <li className='skills'>Pipe Hot Tapping</li>
 
-                        <li>Insertion Flow Meter Installations</li>
+                        <li className='skills'>Insertion Flow Meter Installations</li>
 
-                        <li>Electrical Services for Motor Control Systems, VFDs, PLC controls and PLC replacements</li>
+                        <li className='skills'>Electrical Services for Motor Control Systems, VFDs, PLC controls and PLC replacements</li>
                         <Link to='/services'>
                             <li>Click here for more information</li>
                         </Link>
@@ -112,6 +107,13 @@ const Home = (props) => {
                     </div>
                 </div>
             </div>
+            {/* <div className="whatWeDo">
+                <div className="whatTextContainer">
+                    <p className="whatText">GT Environmental is an instrumentation and controls company that services Arizona, New Mexico, Nevada and Southwest Colorado. GT Environmental is also a McCrometer authorized dealer, installer and service center. We also provide instrumentation and control services to municipalities for Water and Waste Water Facilities along with mining and agriculture.<br />
+                        We provide full services for insertion flow meters that include pipe saddle installation and weld-o-lets for hot tapping purposes. We also provide the electrical installation and start-up for the flow meter and any integration into the customer’s SCADA System. Along with our installation services we also provide flow meter testing and verification.</p>
+                </div>
+            </div>
+            <br></br> */}
 
         </section>
     )

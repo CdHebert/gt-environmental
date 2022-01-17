@@ -26,6 +26,7 @@ const SCADA = () => {
                 border: "solid 5px cadetblue",
                 borderRadius: "15px",
                 boxShadow: "5px 5px 10px",
+                marginBottom: '25px'
                 // alignContent: "center",
                 // alignItems: "center",
                 // justifyContent: "center",

@@ -1,4 +1,9 @@
 /* video settings */
+* {
+  color: #cedff8;
+  font-family: 'STIX Two Text', sans-serif, Impact, 'Times New Roman', Times, serif;
+}
+
 .thisvideo {
   display: flex!important;
   border-radius: 15px!important;
@@ -15,7 +20,6 @@
 	background-repeat: no-repeat;
 	background-size: cover;
   background-attachment: fixed;
-  font-family: 'STIX Two Text', sans-serif, Impact, 'Times New Roman', Times, serif;
   /* background-color: rgb(184, 221, 253); */
 }
 /* navbar start */
@@ -269,7 +273,7 @@
   margin-left: 5%!important;
   /* border: black solid 2px; */
   border-radius: 15px!important;
-  background-color: rgba(95, 158, 160, 0.4)!important;
+  background-color: rgba(95, 158, 160, 0.5)!important;
   height: 200px!important;
 }
 
@@ -320,7 +324,7 @@
   flex-wrap: wrap!important;
   width: 90%!important;
   /* border: black solid 2px!important; */
-  background-color: rgba(95, 158, 160, 0.4)!important;
+  background-color: rgba(95, 158, 160, 0.5)!important;
   border-radius: 15px!important;
   margin-left: 5%!important;
   margin-top: 40px!important;
@@ -344,8 +348,16 @@
 }
 
 .skillText {
-  width: 60%;
+  width: 80%;
   align-self: center!important;
+  list-style-type: none;
+  /* background-color: rgba(2, 58, 59, 0.4); */
+  border-radius: 15px;
+}
+
+.skills {
+  text-decoration: none!important;
+  text-align: center;
 }
 
 /* button styles learn more */
@@ -376,7 +388,7 @@
   align-content: center!important;
   /* border: black solid 2px; */
   border-radius: 15px;
-  background-color: rgba(95, 158, 160, 0.4)!important;
+  background-color: rgba(95, 158, 160, 0.5)!important;
   margin-bottom: 15px!important;
 }
 
@@ -432,7 +444,7 @@
   align-content: center!important;
   /* border: black solid 2px; */
   border-radius: 15px;
-  background-color: rgba(95, 158, 160, 0.4)!important;
+  background-color: rgba(95, 158, 160, 0.5)!important;
   margin-bottom: 15px!important;
 }
 
@@ -494,7 +506,7 @@
 .flowInfoBox {
   align-self: center!important;
   width: 55%!important;
-  background-color: rgba(95, 158, 160, 0.4)!important;
+  background-color: rgba(95, 158, 160, 0.5)!important;
   border-radius: 15px!important;
   margin-left: 13%!important;
   margin-top: 20px!important;
@@ -525,7 +537,7 @@
 
 .aboutMeterBox {
   margin-top: 20px!important;
-  background-color: rgba(95, 158, 160, 0.4)!important;
+  background-color: rgba(95, 158, 160, 0.5)!important;
   width: 15%!important;
   /* border: 2px solid black!important; */
   margin-left: 2%!important;
@@ -634,7 +646,7 @@
 .imageContainer {
   align-self: center!important;
   width: 26%!important;
-  background-color: rgba(95, 158, 160, 0.4)!important;
+  background-color: rgba(95, 158, 160, 0.5)!important;
   border-radius: 15px!important;
   margin-left: 20px!important;
   margin-top: 20px!important;
@@ -744,7 +756,7 @@
   display: flex;
   justify-content: center;
   color: #cedff8;
-  background-color: rgba(95, 158, 160, 0.4)!important;
+  background-color: rgba(95, 158, 160, 0.5)!important;
 }
 
 /* imported css for slideshow */
