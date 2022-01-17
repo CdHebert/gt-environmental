@@ -9,13 +9,12 @@ const Navbar = () => {
         <nav id='nav-wrap' className="navContainer">
 
             {/* <h1 className="colorHeader">GT Environmental</h1> */}
-            <div className="colorHeader hvr-pulse-grow">
-                <Link to="/">
-                    <img className="headerLogo" alt="gt environmental logo" src="/images/GT12.png" />
-                </Link><span id="home" className="hidden-home "><i className="fas fa-hand-point-left"></i> Click to go Home!</span>
+            <div>
+                    <img className="headerLogo" alt="gt environmental logo" src="/images/GT12.png" />         
             </div>
 
             <ul id='nav' className="navButtonContainer">
+                <Link className="navApp hvr-pulse-grow" to='/'><li>Home</li></Link>
                 <Link className="navApp hvr-pulse-grow" to='/meters'><li>Flow Meters</li></Link>
                 <Link className="navApp hvr-pulse-grow" to='/scada'><li>SCADA</li></Link>
                 <Link className="navApp hvr-pulse-grow" to='/services'><li>Services</li></Link>
