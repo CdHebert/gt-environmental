@@ -355,9 +355,11 @@
   text-align: center;
 }
 
-.skillsLink {
+.skillsLink:hover {
   color: #0e0181;
 }
+
+
 
 /* button styles learn more */
 
