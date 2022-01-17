@@ -351,13 +351,12 @@
   width: 80%;
   align-self: center!important;
   list-style-type: none;
-  /* background-color: rgba(2, 58, 59, 0.4); */
   border-radius: 15px;
+  text-align: center;
 }
 
-.skills {
-  text-decoration: none!important;
-  text-align: center;
+.skillsLink {
+  color: #0e0181;
 }
 
 /* button styles learn more */
@@ -365,7 +364,7 @@
 .buttonStyles {
   border: none!important;
   color: #2e65b8!important;
-  background-color: rgba(95, 158, 160, 0)!important;
+  background-color: rgba(95, 158, 160, 0.5)!important;
 }
 
 .buttonStyles:hover {
@@ -432,7 +431,7 @@
 
 .far {
   font-size: 2em !important;
-  color:  #2e65b8!important;
+  color:  #0e0181!important;
   margin: 5px!important;
 }
 

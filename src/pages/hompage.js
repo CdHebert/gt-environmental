@@ -31,13 +31,13 @@ const Home = (props) => {
                     <img className="skillImages" src="/images/fpiLarg.png" alt="30%" />
                     <h4 className="aboutText2">Flow Meters</h4>
                     <ul className="skillText">
-                        <p>We offer:</p>
+                        <h3>We Sell:</h3>
 
                         <li> McCrometer Full Profile Insertion (FPI)</li>
 
                         <li> McCrometer Single Point Insertion (SPI)</li>
                         <Link to='/meters'>
-                            <li>Click here for more information</li>
+                            <li className='skillsLink'>Click here for more information...</li>
                         </Link>
                     </ul>
                 </div>
@@ -45,7 +45,7 @@ const Home = (props) => {
                     <img className="skillImages" src="/images/scadaPlaceholder.png" alt="30%" />
                     <h4 className="aboutText2">SCADA</h4>
                     <ul className="skillText">
-                        <p> We offer programming services for the following:</p>
+                        <h3> We offer programming for the following Technologies:</h3>
 
                         <li>Allen Bradley</li>
 
@@ -61,7 +61,7 @@ const Home = (props) => {
 
                         <li>Ignition</li>
                         <Link to='/scada'>
-                            <li>Click here for more information</li>
+                            <li className='skillsLink'>Click here for more information...</li>
                         </Link>
 
                     </ul>
@@ -70,15 +70,15 @@ const Home = (props) => {
                     <img className="skillImages" src="/images/manholeInstall.png" alt="30%" />
                     <h4 className="aboutText2">Services</h4>
                     <ul className="skillText">
-                        <p>We offer:</p>
+                        <h3>Our services:</h3>
 
-                        <li className='skills'>Pipe Hot Tapping</li>
+                        <li>Pipe Hot Tapping</li>
 
-                        <li className='skills'>Insertion Flow Meter Installations</li>
+                        <li>Insertion Flow Meter Installations</li>
 
-                        <li className='skills'>Electrical Services for Motor Control Systems, VFDs, PLC controls and PLC replacements</li>
+                        <li>Electrical Services for Motor Control Systems, VFDs, PLC controls and PLC replacements</li>
                         <Link to='/services'>
-                            <li>Click here for more information</li>
+                            <li className='skillsLink'>Click here for more information...</li>
                         </Link>
                     </ul>
                 </div>
