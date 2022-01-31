@@ -14,10 +14,10 @@ const Navbar = () => {
             </div>
 
             <ul id='nav' className="navButtonContainer">
-                <Link className="navApp hvr-pulse-grow" to='/'><li>Home</li></Link>
-                <Link className="navApp hvr-pulse-grow" to='/meters'><li>Flow Meters</li></Link>
-                <Link className="navApp hvr-pulse-grow" to='/scada'><li>SCADA</li></Link>
-                <Link className="navApp hvr-pulse-grow" to='/services'><li>Services</li></Link>
+                <Link className="navApp hvr-underline-from-center" to='/'><li>Home</li></Link>
+                <Link className="navApp hvr-underline-from-center" to='/meters'><li>Flow Meters</li></Link>
+                <Link className="navApp hvr-underline-from-center" to='/scada'><li>SCADA</li></Link>
+                <Link className="navApp hvr-underline-from-center" to='/services'><li>Services</li></Link>
             </ul>
             
             <div className="mccromBox">
