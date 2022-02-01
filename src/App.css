@@ -402,6 +402,7 @@
 }
 
 .aboutInfo1 {
+  display: flex;
   margin: 5px!important;
   width: 100%!important;
   flex-wrap: wrap;
