@@ -6,7 +6,7 @@ const Navbar = () => {
 
     // const tabs = ['Flow-Meters', 'SCADA', 'Services']
     return (
-        <nav id='nav-wrap' className="navContainer">
+        <nav id='nav-wrap' className="navContainer ">
 
             {/* <h1 className="colorHeader">GT Environmental</h1> */}
             <div>

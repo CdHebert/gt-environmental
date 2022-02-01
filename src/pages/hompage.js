@@ -25,7 +25,7 @@ const Home = (props) => {
 
     return (
         <section>
-            
+
             <div className="skillsContainer">
                 <div className="img-container">
                     <img className="skillImages" src="/images/fpiLarg.png" alt="30%" />
@@ -60,10 +60,10 @@ const Home = (props) => {
                         <li>Red Lion</li>
 
                         <li>Ignition</li>
+
                         <Link to='/scada'>
                             <li className='skillsLink'>Click here for more information...</li>
                         </Link>
-
                     </ul>
                 </div>
                 <div className="img-container">
@@ -88,10 +88,18 @@ const Home = (props) => {
                     <h1 className="aboutText1">What We Do</h1>
                     <div className="aboutTextContainer1">
                         <div className="aboutInfo1">
-                            <p><i className="far fa-check-square"></i> We are a full service provider for McCrometer Insertion Flow Meters</p>
-                            <p><i className="far fa-check-square"></i>   Offer continuous Technical Support for all of our customers</p>
-                            <p><i className="far fa-check-square"></i>   Specialize in troubleshooting of control and automation systems</p>
-                            <p><i className="far fa-check-square"></i> Program new and existing SCADA Systems for customer changes and upgrades</p>
+                            <div className='para-holder'>
+                                <i className="far fa-check-square"></i><p> We are a full service provider for McCrometer Insertion Flow Meters</p>
+                            </div>
+                            <div className='para-holder'>
+                            <i className="far fa-check-square"></i><p>   Offer continuous Technical Support for all of our customers</p>
+                            </div>
+                            <div className='para-holder'>
+                            <i className="far fa-check-square"></i><p> Specialize in troubleshooting of control and automation systems</p>
+                            </div>
+                            <div className='para-holder'>
+                            <i className="far fa-check-square"></i><p> Program new and existing SCADA Systems for customer changes and upgrades</p>
+                            </div>
 
                         </div>
                     </div>

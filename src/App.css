@@ -6,11 +6,11 @@
 }
 
 .thisvideo {
-  display: flex;
-  border-radius: 15px;
+  display: flex!important;
+  border-radius: 15px!important;
   align-items: center;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 25px!important;
 }
 
 .mainBg {
@@ -25,76 +25,76 @@
 }
 /* navbar start */
 .navApp {
-  list-style: none;
-  text-decoration: none;
-  color: white;
-  font-size: 25px;
+  list-style: none!important;
+  text-decoration: none!important;
+  color: white!important;
+  font-size: 25px!important;
 }
 /* .navApp :hover {
-  color: #2e65b8;
+  color: #2e65b8!important;
 } */
 
 .authorized {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  color: #cedff8;
+  margin: 0!important;
+  padding: 0!important;
+  text-align: center!important;
+  color: #cedff8!important;
   font-size: 25px;
-  word-spacing: -2px;
+  word-spacing: -2px!important;
   font-family: 'STIX Two Text', sans-serif, Impact, 'Times New Roman', Times, serif;
 }
 
 .navContainer {
-  display: flex;
-  flex-direction: row;
-  color: white;
-  /* background-image: url("./assets/images/stoneBg.jpg"); */
-  background-color: rgba(156, 95, 55, 0.4);
+  display: flex!important;
+  flex-direction: row!important;
+  color: white!important;
+  /* background-image: url("./assets/images/stoneBg.jpg")!important; */
+  background-color: rgba(156, 95, 55, 0.4)!important;
   opacity: 1;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
+  background-size: cover!important;
+  background-repeat: no-repeat!important;
+  width: 100%!important;
 }
 
 .gtLogo {
-  margin: 10px;
+  margin: 10px!important;
 
 }
 
 .colorHeader {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-self: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-decoration: none;
-  width: 20%;
-  margin-right: 0;
+  display: flex!important;
+  flex-direction: row!important;
+  align-items: center!important;
+  align-self: center!important;
+  justify-content: center!important;
+  flex-wrap: wrap!important;
+  text-decoration: none!important;
+  width: 20%!important;
+  margin-right: 0!important;
 }
 
 .headerLogo {
-  margin-top: 0px;
-  width: 180px;
-  height: 100px;
+  margin-top: 0px!important;
+  width: 180px!important;
+  height: 100px!important;
   opacity: 0.9;
-  margin-bottom: 0;
-  padding-right: 30px;
+  margin-bottom: 0!important;
+  padding-right: 30px!important;
 }
 
 
 
 .navButtonContainer {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-self: center;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 58%;
-  text-decoration: none;
+  margin: 0!important;
+  padding: 0!important;
+  display: flex!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  align-self: center!important;
+  align-items: center!important;
+  justify-content: space-evenly!important;
+  width: 58%!important;
+  text-decoration: none!important;
 }
 
 /* Underline From Center */
@@ -129,31 +129,31 @@
 }
 
 .mccromBox {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 25%;
+  display: flex!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  width: 25%!important;
 }
 
 .imgStyle {
-  align-self: center;
-  width: 100%;
+  align-self: center!important;
+  width: 100%!important;
 }
 
 .hidden-home {
-  text-decoration: none;
-  opacity: 0;
+  text-decoration: none!important;
+  opacity: 0!important;
   position: absolute;
-  /* right: 15px; */
-  left: 14em;
+  /* right: 15px!important; */
+  left: 14em!important;
 }
 
 .colorHeader:hover .hidden-home {
-  opacity: 1;
+  opacity: 1!important;
 }
 
 .fas {
-  font-size: 25px;
+  font-size: 25px!important;
 }
 
 /* navbar end */
@@ -162,7 +162,7 @@
 
 .footer {
   width: 100%;
-  background-color: rgba(156, 95, 55, 0.4);
+  background-color: rgba(156, 95, 55, 0.4)!important;
   display: flex;
   flex-direction: row;
 }
@@ -170,7 +170,7 @@
 .contactFoot {
   width: 33%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-content: center;
   justify-content: flex-end;
   align-items: center;
@@ -181,104 +181,113 @@
   width: 33%;
   margin-top: 0;
   flex-wrap: wrap;
-  align-content: center;
+  align-content: flex-start;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
 
 .contactH1 {
-  margin-top: 5px;
+  margin-top: 5px!important;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
   align-items: center;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 15px!important;
+  margin-right: 15px!important;
 }
 
 .fas {
-  text-decoration:none;
+  text-decoration:none!important;
   font-size: 3em;
 }
 
 .createdBy {
-  display: flex;
-  font-size: 15px;
-  margin: 0;
-  margin-right: 15px;
+  display: flex!important;
+  font-size: 15px!important;
+  margin: 0!important;
+  margin-right: 15px!important;
   color: #cedff8;
-  align-self: center;
+  align-self: center!important;
 }
 
 .contact-info {
-  margin-top: 0;
+  margin-top: 0!important;
   padding: 0;
   width: 33%;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
-.contact-info ul {
+
+.contact-info h1 {
+  margin: 0!important;
+  text-decoration: underline;
+}
+
+.contact-info ul li {
+  font-size: 15px;
   padding: 0;
-  margin-top: 0;
+  margin-top: 0!important;
 }
+
 
 
 /* homepage setup start */
 
 .whatWeDo {
   /* background-image: url("./assets/images/whatWeDo.png"); */
-  min-height: 60%;
-	min-width: 60%;
+  min-height: 60%!important;
+	min-width: 60%!important;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-  margin-top: 40px;
-  display: flex;
-  flex-direction: row;
-  width: 90%;
-  margin-left: 5%;
+  margin-top: 40px!important;
+  display: flex!important;
+  flex-direction: row!important;
+  width: 90%!important;
+  margin-left: 5%!important;
   /* border: black solid 2px; */
-  border-radius: 15px;
-  background-color: rgba(95, 158, 160, 0.5);
-  height: 200px;
+  border-radius: 15px!important;
+  background-color: rgba(95, 158, 160, 0.5)!important;
+  height: 200px!important;
 }
 
 .whatTextContainer {
-  display: flex;
-  margin: 0px 0 0 15px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  width: 100%;
+  display: flex!important;
+  margin: 0px 0 0 15px!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  align-items: center!important;
+  align-content: center!important;
+  justify-content: center!important;
+  width: 100%!important;
   /* background-color: rgba(80, 80, 80, 0.3); */
 }
 
 .whatText {
-  display: flex;
-  margin: 10px 0 0 15px;
-  width: 85%;
+  display: flex!important;
+  margin: 10px 0 0 15px!important;
+  width: 85%!important;
   /* font-weight: bold; */
   /* font-size: 20px; */
 }
 
 .whatAboutPicContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 30%;
+  display: flex!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  width: 30%!important;
 }
 
 
 .whatAboutPic {
-  width: 87%;
-  align-self: flex-end;
-  max-height: 300px;
-  margin: 20px;
+  width: 87%!important;
+  align-self: flex-end!important;
+  max-height: 300px!important;
+  margin: 20px!important;
   border-radius: 15px;
 }
 /* billboard end */
@@ -288,37 +297,37 @@
 /* image skill and image skill styles */
 
 .skillsContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 90%;
-  /* border: black solid 2px; */
-  background-color: rgba(95, 158, 160, 0.1);
-  border-radius: 15px;
-  margin-left: 5%;
-  margin-top: 40px;
+  display: flex!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  width: 90%!important;
+  /* border: black solid 2px!important; */
+  background-color: rgba(95, 158, 160, 0.1)!important;
+  border-radius: 15px!important;
+  margin-left: 5%!important;
+  margin-top: 40px!important;
 }
 
 .img-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 32%;
+  display: flex!important;
+  flex-direction: column!important;
+  flex-wrap: wrap!important;
+  width: 32%!important;
 
 }
 
 .skillImages {
-  width: 80%;
-  align-self: center;
-  max-height: 300px;
-  margin: 20px;
+  width: 80%!important;
+  align-self: center!important;
+  max-height: 300px!important;
+  margin: 20px!important;
   border-radius: 15px;
   box-shadow: 8px 5px 12px #e6e5f1;
 }
 
 .skillText {
   width: 80%;
-  align-self: center;
+  align-self: center!important;
   list-style-type: none;
   border-radius: 15px;
   text-align: center;
@@ -333,132 +342,139 @@
 /* button styles learn more */
 
 .buttonStyles {
-  border: none;
-  color: #2e65b8;
-  background-color: rgba(95, 158, 160, 0.5);
+  border: none!important;
+  color: #2e65b8!important;
+  background-color: rgba(95, 158, 160, 0.5)!important;
 }
 
 .buttonStyles:hover {
-  background-color: #2e65b8;
-  color: white
+  background-color: #2e65b8!important;
+  color: white!important
 }
 
 /* who we are and what we do start */
 .aboutSection {
-  width: 100%;
+  width: 100%!important;
   display: flex;
-  margin-top: 40px;
+  margin-top: 40px!important;
   justify-content: space-around;
 }
 .aboutContainer1 {
-  display: flex;
-  flex-direction: column;
+  display: flex!important;
+  flex-direction: column!important;
   flex-wrap: wrap;
-  width: 40%;
-  align-content: center;
+  width: 40%!important;
+  align-content: center!important;
   /* border: black solid 2px; */
   border-radius: 15px;
-  background-color: rgba(95, 158, 160, 0.2);
-  margin-bottom: 15px;
+  background-color: rgba(95, 158, 160, 0.2)!important;
+  margin-bottom: 15px!important;
 }
 
 .aboutPicBox1 {
-  display: flex;
+  display: flex!important;
   align-self: flex-start;
-  flex-wrap: wrap;
-  width: 10%;
+  flex-wrap: wrap!important;
+  width: 10%!important;
 }
 
 .aboutTextContainer1 {
-  display: flex;
-  margin: 0px 0 0 15px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: flex-start;
-  justify-content: center;
-  width: 100%;
+  display: flex!important;
+  margin: 0px 0 0 15px!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  align-items: center!important;
+  align-content: flex-start!important;
+  justify-content: center!important;
+  width: 100%!important;
 }
 
 .aboutText1 {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  width: 100%;
-  margin: 0;
-  font-size: 30px;
-  text-decoration: underline;
-  color: rgb(211, 211, 211);
-  margin-top: 10px;
+  display: flex!important;
+  justify-content: center!important;
+  align-content: center!important;
+  width: 100%!important;
+  margin: 0!important;
+  font-size: 30px!important;
+  text-decoration: underline!important;
+  color: rgb(211, 211, 211)!important;
+  margin-top: 10px!important;
 }
 
 .aboutInfo1 {
-  margin: 5px;
-  width: 100%;
+  margin: 5px!important;
+  width: 100%!important;
   flex-wrap: wrap;
   /* font-weight: bold;
   font-size: 20px; */
 }
 
 .far {
-  font-size: 2em ;
-  color:  #2e65b8;
-  margin: 5px;
+  font-size: 2em !important;
+  color:  #2e65b8!important;
+  margin: 5px!important;
+}
+
+.para-holder {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .aboutContainer2 {
-  display: flex;
-  flex-direction: column;
+  display: flex!important;
+  flex-direction: column!important;
   flex-wrap: wrap;
-  width: 40%;
-  align-content: center;
+  width: 40%!important;
+  align-content: center!important;
   /* border: black solid 2px; */
   border-radius: 15px;
-  background-color: rgba(95, 158, 160, 0.2);
-  margin-bottom: 15px;
+  background-color: rgba(95, 158, 160, 0.2)!important;
+  margin-bottom: 15px!important;
 }
 
 .aboutPicBox2 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 60%;
+  display: flex!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  width: 60%!important;
 }
 
 .aboutPic2 {
-  width: 100%;
-  align-self: flex-end;
-  max-height: 300px;
-  margin: 20px;
-  border-radius: 15px;
+  width: 100%!important;
+  align-self: flex-end!important;
+  max-height: 300px!important;
+  margin: 20px!important;
+  border-radius: 15px!important;
   box-shadow: 8px 5px 12px #e6e5f1;
 }
 
 .aboutTextContainer2 {
-  display: flex;
-  margin: 0px 0 0 15px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: flex-start;
-  justify-content: center;
-  width: 65%;
+  display: flex!important;
+  margin: 0px 0 0 15px!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  align-items: center!important;
+  align-content: flex-start!important;
+  justify-content: center!important;
+  width: 65%!important;
 }
 
 .aboutText2 {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  width: 100%;
-  margin: 0;
-  font-size: 30px;
-  text-decoration: underline;
-  color: rgb(211, 211, 211);
+  display: flex!important;
+  justify-content: center!important;
+  align-content: center!important;
+  width: 100%!important;
+  margin: 0!important;
+  font-size: 30px!important;
+  text-decoration: underline!important;
+  color: rgb(211, 211, 211)!important;
 }
 
 .aboutInfo2 {
-  margin: 10px 0 0 15px;
-  width: 100%;
+  margin: 10px 0 0 15px!important;
+  width: 100%!important;
   /* font-weight: bold;
   font-size: 20px; */
 }
@@ -469,115 +485,115 @@
 /* flowMeter section start */
 
 .flowSection {
-  display: flex;
-  flex-direction: row;
+  display: flex!important;
+  flex-direction: row!important;
 }
 
 .flowInfoBox {
-  align-self: center;
-  width: 55%;
-  background-color: rgba(95, 158, 160, 0.2);
-  border-radius: 15px;
-  margin-left: 13%;
-  margin-top: 20px;
-  margin-right: 15px;
-  /* border: 2px solid black; */
+  align-self: center!important;
+  width: 55%!important;
+  background-color: rgba(95, 158, 160, 0.2)!important;
+  border-radius: 15px!important;
+  margin-left: 13%!important;
+  margin-top: 20px!important;
+  margin-right: 15px!important;
+  /* border: 2px solid black!important; */
   box-shadow: black 5px 5px 15px;
-  margin-bottom: 15px;
+  margin-bottom: 15px!important;
 }
 
 .flowInfo {
-  padding: 0;
-  display: flex;
-  margin-top: 20px;
-  align-self: center;
-  width: 100%;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
+  padding: 0!important;
+  display: flex!important;
+  margin-top: 20px!important;
+  align-self: center!important;
+  width: 100%!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  align-content: center!important;
+  justify-content: center!important;
+  align-items: center!important;
 }
 
 .react-pdf__Page__canvas {
   margin: 0 auto;
-  width: 90% ;
-  height: 100% ;
+  width: 90% !important;
+  height: 100% !important;
 }
 
 .aboutMeterBox {
-  margin-top: 20px;
-  background-color: rgba(95, 158, 160, 0.2);
-  width: 15%;
-  /* border: 2px solid black; */
-  margin-left: 2%;
-  margin-right: 15px;
-  border-radius: 15px;
+  margin-top: 20px!important;
+  background-color: rgba(95, 158, 160, 0.2)!important;
+  width: 15%!important;
+  /* border: 2px solid black!important; */
+  margin-left: 2%!important;
+  margin-right: 15px!important;
+  border-radius: 15px!important;
   box-shadow: black 5px 5px 15px;
-  margin-bottom: 15px;
+  margin-bottom: 15px!important;
 }
 
 .aboutMeters {
-  display: flex;
-  text-decoration: none;
-  color: white;
-  font-size: 25px;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
+  display: flex!important;
+  text-decoration: none!important;
+  color: white!important;
+  font-size: 25px!important;
+  flex-wrap: wrap!important;
+  align-content: center!important;
+  justify-content: center!important;
+  align-items: center!important;
 }
 
 .aboutMeters:hover {
-  text-decoration: underline;
-  color: #2e65b8;
+  text-decoration: underline!important;
+  color: #2e65b8!important;
 }
 
 .buttonControl {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
+  display: flex!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  align-content: center!important;
+  justify-content: center!important;
+  align-items: center!important;
 }
 
 .download {
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  margin-top: 10px;
-  color: #2e65b8;
-  border: none;
-  border-radius: 5px;
-  margin-top: 0;
-  margin-bottom: 20px;
+  display:flex!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  align-content: center!important;
+  justify-content: center!important;
+  align-items: center!important;
+  text-decoration: none!important;
+  margin-top: 10px!important;
+  color: #2e65b8!important;
+  border: none!important;
+  border-radius: 5px!important;
+  margin-top: 0!important;
+  margin-bottom: 20px!important;
   
 }
 
 .download:hover {
-  color: white;
+  color: white!important;
   background-color: #2e65b8;
   
 }
 
 .fa-file-download {
-  font-size: 1.5em ;
-  color:  black;
-  margin: 5px;
+  font-size: 1.5em !important;
+  color:  black!important;
+  margin: 5px!important;
 }
 
 .fa-file-download:hover {
-  background-color: #2e65b8;
-  color: white;
+  background-color: #2e65b8!important;
+  color: white!important;
 }
 
 .click {
-  font-size: 10px;
+  font-size: 10px!important;
   
 }
 
@@ -590,39 +606,39 @@
 }
 
 .fa-arrow-left {
-  font-size: 10px;
+  font-size: 10px!important;
 }
 
 .Pre {
-  background-color: #2e65b8;
-  margin-left: 3px;
-  margin-bottom: 5px;
+  background-color: #2e65b8!important;
+  margin-left: 3px!important;
+  margin-bottom: 5px!important;
 }
 
 .Pre:hover {
-  background-color: #cedff8;
+  background-color: #cedff8!important;
 }
 .next {
-  background-color: #2e65b8;
+  background-color: #2e65b8!important;
   width: 85px;
-  margin-left: 3px;
-  margin-bottom: 5px;
+  margin-left: 3px!important;
+  margin-bottom: 5px!important;
 }
 
 .next:hover {
-  background-color: #cedff8;
+  background-color: #cedff8!important;
 }
 
 .imageContainer {
-  align-self: center;
-  width: 26%;
-  background-color: rgba(95, 158, 160, 0.2);
-  border-radius: 15px;
-  margin-left: 20px;
-  margin-top: 20px;
-  /* border: 2px solid black; */
+  align-self: center!important;
+  width: 26%!important;
+  background-color: rgba(95, 158, 160, 0.2)!important;
+  border-radius: 15px!important;
+  margin-left: 20px!important;
+  margin-top: 20px!important;
+  /* border: 2px solid black!important; */
   box-shadow: black 5px 5px 15px;
-  margin-bottom: 15px;
+  margin-bottom: 15px!important;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -632,10 +648,10 @@
 }
 
 .imgBox {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+  display: flex!important;
+  flex-direction: row!important;
+  flex-wrap: wrap!important;
+  width: 100%!important;
   align-content: center;
   justify-content: center;
   align-items: center;
@@ -651,8 +667,8 @@
 }
 
 .aboutPic3 {
-  width: 95%;
-  margin: 10px;
+  width: 95%!important;
+  margin: 10px!important;
   border-radius: 15px;
 }
 /* pipe images start */
@@ -687,7 +703,7 @@
   width: 100%;
   height: 300px;
   border-radius: 10px;
-  margin: 25px;
+  margin: 25px!important;
   transition: ease 2000ms
 }
 
@@ -726,7 +742,7 @@
   display: flex;
   justify-content: center;
   color: #cedff8;
-  background-color: rgba(95, 158, 160, 0.2);
+  background-color: rgba(95, 158, 160, 0.2)!important;
 }
 
 /* imported css for slideshow */
@@ -765,45 +781,45 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    overflow: hidden;
+    overflow: hidden!important;
   }
 
   .whatText {
-    display: flex;
-    margin: 10px 0 0 15px;
-    width: 85%;
-    /* font-weight: normal; */
+    display: flex!important;
+    margin: 10px 0 0 15px!important;
+    width: 85%!important;
+    /* font-weight: normal!important; */
     font-size: 20px;
     max-height: 95%;
     overflow: scroll;
   }
 
   .flowSection {
-    display: flex;
-    flex-direction: column;
+    display: flex!important;
+    flex-direction: column!important;
   }
   
   .aboutMeterBox {
-    margin: 0;
-    margin-top: 20px;
-    align-self: center;
-    width: 90%;
-    border-radius: 15px;
+    margin: 0!important;
+    margin-top: 20px!important;
+    align-self: center!important;
+    width: 90%!important;
+    border-radius: 15px!important;
     box-shadow: black 5px 5px 15px;
-    margin-bottom: 5px;
+    margin-bottom: 5px!important;
   }
   
   .meterFlowSection {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    display: inline-flex!important;
+    flex-direction: row!important;
+    flex-wrap: wrap!important;
+    align-content: center!important;
+    justify-content: center!important;
+    align-items: center!important;
   }
   
   .meterSelection {
-    display: inline-flex;
+    display: inline-flex!important;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
@@ -812,29 +828,29 @@
   }
   
   .download {
-    padding: 0;
+    padding: 0!important;
     width: 70%;
   }
   
   .flowInfoBox {
-    width: 90%;
+    width: 90%!important;
   }
   
   .react-pdf__Page__canvas {
     margin: 0 auto;
-    width: 90% ;
-    height: 100% ;
-    border-radius: 15px;
+    width: 90% !important;
+    height: 100% !important;
+    border-radius: 15px!important;
   }
   
   .imageContainer {
-    margin: 0;
-    width: 90%;
+    margin: 0!important;
+    width: 90%!important;
   }
   
   .aboutPic3 {
-    width: 95%;
-    margin: 10px;
+    width: 95%!important;
+    margin: 10px!important;
     border-radius: 15px;
   }
 
@@ -854,9 +870,9 @@
     background-attachment: fixed;
   }
   .whatText {
-    display: flex;
-    margin: 10px 0 0 15px;
-    width: 85%;
+    display: flex!important;
+    margin: 10px 0 0 15px!important;
+    width: 85%!important;
     font-weight: bold;
     font-size: 20px;
     max-height: 95%;
@@ -864,120 +880,120 @@
   }
 
   .skillsContainer{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 89%;
-    border-radius: 15px;
-    margin-left: 5%;
-    margin-top: 40px;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    display: flex!important;
+    flex-direction: column!important;
+    flex-wrap: wrap!important;
+    width: 89%!important;
+    border-radius: 15px!important;
+    margin-left: 5%!important;
+    margin-top: 40px!important;
+    align-content: center!important;
+    justify-content: center!important;
+    align-items: center!important;
   }
 
   .img-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    display: flex!important;
+    flex-direction: column!important;
+    width: 100%!important;
 }
 
 .aboutSection {
-  width: 100%;
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
+  width: 100%!important;
+    display: flex!important;
+    margin-top: 40px!important;
+    justify-content: center!important;
+    flex-direction: column!important;
+    align-content: center!important;
+    align-items: center!important;
 }
 
 .aboutContainer1 {
-width: 89%;
-margin-bottom: 15px;
+width: 89%!important;
+margin-bottom: 15px!important;
 }
 
 .aboutContainer2 {
-  flex-direction: column;
-  width: 89%;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  flex-direction: column!important;
+  width: 89%!important;
+  margin-top: 15px!important;
+  margin-bottom: 15px!important;
 }
 
 .aboutPicBox2 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: 0;
+  display: flex!important;
+  flex-direction: column!important;
+  flex-wrap: wrap!important;
+  width: 100%!important;
+  margin: 0!important;
 }
   
 .aboutPic2 {
-  width: 100%;
-  margin: 0px;
-  margin-top: 10px;
-  border-radius: 15px;
+  width: 100%!important;
+  margin: 0px!important;
+  margin-top: 10px!important;
+  border-radius: 15px!important;
   box-shadow: 8px 5px 12px black;
 }
 
 .aboutInfo2 {
-  margin: 0;
-  margin-top: 10px;
+  margin: 0!important;
+  margin-top: 10px!important;
 }
 
 /* navbar */
 .colorHeader {
-  font-size: 15px;
-  margin: 0;
-  margin-left: 20px;
-  padding-left: 15px;
-  width: 25%;
+  font-size: 15px!important;
+  margin: 0!important;
+  margin-left: 20px!important;
+  padding-left: 15px!important;
+  width: 25%!important;
 }
 
 .navButtonContainer {
-  width: 35%;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding-left: 10px;
+  width: 35%!important;
+  display: flex!important;
+  flex-direction: column!important;
+  margin: 0!important;
+  padding-left: 10px!important;
 }
 
 .gtLogo {
-  width: 100%;
+  width: 100%!important;
 }
 
 .navApp {
-  font-size: 15px;
+  font-size: 15px!important;
 }
 
 .mccromBox {
-  width: 35%;
+  width: 35%!important;
 }
 
 /* flowmeters */
 
 .flowSection {
-  display: flex;
-  flex-direction: column;
+  display: flex!important;
+  flex-direction: column!important;
 }
 
 .aboutMeterBox {
-  margin: 0;
-  margin-top: 20px;
-  align-self: center;
-  width: 80%;
-  border-radius: 15px;
+  margin: 0!important;
+  margin-top: 20px!important;
+  align-self: center!important;
+  width: 80%!important;
+  border-radius: 15px!important;
   box-shadow: black 5px 5px 15px;
-  margin-bottom: 5px;
+  margin-bottom: 5px!important;
 }
 
 .aboutPic3 {
-  width: 60%;
+  width: 60%!important;
 }
 
 .meterFlowSection {
   display: flex;
-  flex-direction: row;
+  flex-direction: row!important;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
@@ -985,33 +1001,80 @@ margin-bottom: 15px;
 }
 
 .meters {
-  margin: 5px;
-  font-size: 15px;
-  width: 30%;
-  font-weight: normal;
+  margin: 5px!important;
+  font-size: 15px!important;
+  width: 30%!important;
+  font-weight: normal!important;
 }
 
 .download {
-  padding: 0;
+  padding: 0!important;
   width: 70%;
-  margin-left: 60px;
+  margin-left: 60px!important;
 }
 
 .flowInfoBox {
-  width: 80%;
-  margin-left: 20px;
+  width: 80%!important;
+  margin-left: 20px!important;
 }
 
 .react-pdf__Page__canvas {
   margin: 0 auto;
-  width: 90% ;
-  height: 100% ;
-  border-radius: 15px;
+  width: 90% !important;
+  height: 100% !important;
+  border-radius: 15px!important;
 }
 
 .imageContainer {
-  margin: 0;
-  width: 90%;
+  margin: 0!important;
+  width: 90%!important;
+}
+
+/* hamburger bar */
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #nav {
+  display: none;
+}
+
+.topnav Link {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav Link.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active1 {
+  background-color: #04AA6D;
+  color: white;
 }
 
 }
