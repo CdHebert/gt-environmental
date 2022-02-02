@@ -1,6 +1,6 @@
 /* video settings */
 * {
-  color: #cedff8;
+  /* color: #cedff8; */
   font-family: 'STIX Two Text', sans-serif, Impact, 'Times New Roman', Times, serif;
   font-size: 20px;
 }
@@ -27,7 +27,7 @@
 .navApp {
   list-style: none!important;
   text-decoration: none!important;
-  color: white!important;
+  color: #cedff8;
   font-size: 25px!important;
 }
 /* .navApp :hover {
@@ -165,6 +165,7 @@
   background-color: rgba(156, 95, 55, 0.4)!important;
   display: flex;
   flex-direction: row;
+  color: #cedff8;
 }
 
 .contactFoot {
@@ -297,6 +298,7 @@
 /* image skill and image skill styles */
 
 .skillsContainer {
+  color: #cedff8;
   display: flex!important;
   flex-direction: row!important;
   flex-wrap: wrap!important;
@@ -322,7 +324,7 @@
   max-height: 300px!important;
   margin: 20px!important;
   border-radius: 15px;
-  box-shadow: 8px 5px 12px #e6e5f1;
+  box-shadow: 8px 5px 12px #cedff8;
 }
 
 .skillText {
@@ -333,9 +335,21 @@
   text-align: center;
 }
 
-.skillsLink:hover {
-  color: #0e0181;
+.skillText a {
+  text-decoration: none;
 }
+
+.skillsLink {
+  color: #cedff8;
+  list-style-type: none;
+}
+
+
+
+/* .skillsLink:hover {
+  color: cadetblue;
+  transition: ease-in-out (#cedff8 to rgba(134, 6, 6, 0.5));
+} */
 
 
 
@@ -343,13 +357,13 @@
 
 .buttonStyles {
   border: none!important;
-  color: #2e65b8!important;
+  color: #cedff8;
   background-color: rgba(95, 158, 160, 0.5)!important;
 }
 
 .buttonStyles:hover {
-  background-color: #2e65b8!important;
-  color: white!important
+  /* background-color: #2e65b8!important; */
+  color: #cedff8;
 }
 
 /* who we are and what we do start */
@@ -358,6 +372,7 @@
   display: flex;
   margin-top: 40px!important;
   justify-content: space-around;
+  color: #cedff8;
 }
 .aboutContainer1 {
   display: flex!important;
@@ -397,7 +412,7 @@
   margin: 0!important;
   font-size: 30px!important;
   text-decoration: underline!important;
-  color: rgb(211, 211, 211)!important;
+  color: #cedff8;
   margin-top: 10px!important;
 }
 
@@ -412,7 +427,7 @@
 
 .far {
   font-size: 2em !important;
-  color:  #2e65b8!important;
+  color: #cedff8;
   margin: 5px!important;
 }
 
@@ -499,7 +514,7 @@
   margin-top: 20px!important;
   margin-right: 15px!important;
   /* border: 2px solid black!important; */
-  box-shadow: black 5px 5px 15px;
+  box-shadow: #cedff8 5px 5px 15px;
   margin-bottom: 15px!important;
 }
 
@@ -530,7 +545,7 @@
   margin-left: 2%!important;
   margin-right: 15px!important;
   border-radius: 15px!important;
-  box-shadow: black 5px 5px 15px;
+  box-shadow: #cedff8 5px 5px 15px;
   margin-bottom: 15px!important;
 }
 
@@ -547,7 +562,7 @@
 
 .aboutMeters:hover {
   text-decoration: underline!important;
-  color: #2e65b8!important;
+  color: #cedff8;
 }
 
 .buttonControl {
@@ -568,7 +583,7 @@
   align-items: center!important;
   text-decoration: none!important;
   margin-top: 10px!important;
-  color: #2e65b8!important;
+  color: #cedff8;
   border: none!important;
   border-radius: 5px!important;
   margin-top: 0!important;
@@ -577,20 +592,19 @@
 }
 
 .download:hover {
-  color: white!important;
-  background-color: #2e65b8;
+  color: #cedff8;
+  background-color: #808080;
   
 }
 
 .fa-file-download {
   font-size: 1.5em !important;
-  color:  black!important;
+  color: #cedff8;
   margin: 5px!important;
 }
 
 .fa-file-download:hover {
-  background-color: #2e65b8!important;
-  color: white!important;
+  background-color: #808080;
 }
 
 .click {
@@ -611,7 +625,7 @@
 }
 
 .Pre {
-  background-color: #2e65b8!important;
+  background-color: #808080;
   margin-left: 3px!important;
   margin-bottom: 5px!important;
 }
@@ -620,7 +634,7 @@
   background-color: #cedff8!important;
 }
 .next {
-  background-color: #2e65b8!important;
+  background-color: #808080;
   width: 85px;
   margin-left: 3px!important;
   margin-bottom: 5px!important;
@@ -638,7 +652,7 @@
   margin-left: 20px!important;
   margin-top: 20px!important;
   /* border: 2px solid black!important; */
-  box-shadow: black 5px 5px 15px;
+  box-shadow: #cedff8 5px 5px 15px;
   margin-bottom: 15px!important;
   display: flex;
   flex-direction: column;

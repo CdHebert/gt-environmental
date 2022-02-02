@@ -36,7 +36,7 @@ const Home = (props) => {
                         <li> McCrometer Full Profile Insertion (FPI)</li>
 
                         <li> McCrometer Single Point Insertion (SPI)</li>
-                        <Link to='/meters'>
+                        <Link className='hvr-underline-from-center' to='/meters'>
                             <li className='skillsLink'>Click here for more information...</li>
                         </Link>
                     </ul>
@@ -61,8 +61,8 @@ const Home = (props) => {
 
                         <li>Ignition</li>
 
-                        <Link to='/scada'>
-                            <li className='skillsLink'>Click here for more information...</li>
+                        <Link className='hvr-underline-from-center' to='/scada'>
+                            <li className='skillsLink '>Click here for more information...</li>
                         </Link>
                     </ul>
                 </div>
@@ -77,7 +77,7 @@ const Home = (props) => {
                         <li>Insertion Flow Meter Installations</li>
 
                         <li>Electrical Services for Motor Control Systems, VFDs, PLC controls and PLC replacements</li>
-                        <Link to='/services'>
+                        <Link className='hvr-underline-from-center' to='/services'>
                             <li className='skillsLink'>Click here for more information...</li>
                         </Link>
                     </ul>

@@ -10,7 +10,6 @@ const Contact = () => {
                     <h1>Contact Us</h1>
                     <li>Glenn Hebert:</li>
                     <li>Daniel Hebert:</li>
-                    <li>Billy:</li>
                 </ul>
             </div>
             <div className="contactUsDiv">
