@@ -10,9 +10,9 @@ const FlowMags = (props) => {
 
             <section className="meterFlowSection">
                 {meters.map(meter => (
-                    <div
+                    <div className='single-meter'
                         key={meter}>
-                        <a className="aboutMeters"
+                        <a className="aboutMeters hvr-underline-from-center"
                             href={'#' + meter.toLowerCase()}
                             // Whenever a meter is clicked on,
                             // the current page is set through the handlePageChange props.
