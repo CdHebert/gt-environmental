@@ -1,7 +1,7 @@
 import React from "react";
-import ImageSlider from "../components/imageSlider";
-import { SliderData, WiringData } from "../components/imageSlider/sliderData";
-import WireSlider from "../components/WiringSlider";
+// import ImageSlider from "../components/imageSlider";
+// import { SliderData, WiringData } from "../components/imageSlider/sliderData";
+// import WireSlider from "../components/WiringSlider";
 
 const Services = () => {
         return (

@@ -6,11 +6,11 @@ const Contact = () => {
     return (
         <section className="footer">
             <div className="contact-info">
-                <ul>
+                {/* <ul>
                     <h1>Contact Us</h1>
                     <li>Glenn Hebert:</li>
                     <li>Daniel Hebert:</li>
-                </ul>
+                </ul> */}
             </div>
             <div className="contactUsDiv">
                 <a style={{
