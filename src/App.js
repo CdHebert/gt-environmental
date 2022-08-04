@@ -18,25 +18,25 @@ function App() {
         <Navbar />
         <div>
           <Switch>
-          <Route
+            <Route
               exact
               path="/">
-                <Home />
+              <Home />
             </Route>
-          <Route
+            <Route
               exact
               path="/meters">
-                <FlowMeters />
+              <FlowMeters />
             </Route>
-          <Route
+            <Route
               exact
               path="/scada">
-                <SCADA />
+              <SCADA />
             </Route>
-          <Route
+            <Route
               exact
               path="/services">
-                <Services />
+              <Services />
             </Route>
           </Switch>
         </div>
