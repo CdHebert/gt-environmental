@@ -24,7 +24,19 @@ const Home = (props) => {
     // }
 
     return (
-        <section>
+        <section className='clearBg'>
+
+             <div className="aboutContainer2">
+                    <div className="aboutTextContainer2">
+                        <h1 className="aboutText1">Who We Are</h1>
+                        <div className="aboutPicBox2">
+                            <img onClick={start1} className="aboutPic2" src="/images/aboutUs.jpg" alt="30%" />
+                        </div>
+                        <p className="aboutInfo2">GT Environmental is a family owned business in the state of Arizona for the past 10 years. Before becoming a Manufacturer’s Representative for McCrometer we were involved with the Integration of the majority of Water and Waste Water Plants in the state of Arizona for the past 25 years.</p>
+                    </div>
+                </div>
+            <div className='darkBg'>
+           
 
             <div className="skillsContainer">
                 <div className="img-container">
@@ -105,15 +117,8 @@ const Home = (props) => {
                     </div>
 
                 </div>
-                <div className="aboutContainer2">
-                    <div className="aboutTextContainer2">
-                        <h1 className="aboutText1">Who We Are</h1>
-                        <div className="aboutPicBox2">
-                            <img onClick={start1} className="aboutPic2" src="/images/aboutUs.jpg" alt="30%" />
-                        </div>
-                        <p className="aboutInfo2">GT Environmental is a family owned business in the state of Arizona for the past 10 years. Before becoming a Manufacturer’s Representative for McCrometer we were involved with the Integration of the majority of Water and Waste Water Plants in the state of Arizona for the past 25 years.</p>
-                    </div>
-                </div>
+               
+            </div>
             </div>
             {/* <div className="whatWeDo">
                 <div className="whatTextContainer">

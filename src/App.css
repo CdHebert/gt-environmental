@@ -4,6 +4,13 @@
   font-family: 'STIX Two Text', sans-serif, Impact, 'Times New Roman', Times, serif;
   font-size: 20px;
 }
+.darkBg{
+  background-color:rgba(0, 0, 0, 0.9);
+}
+
+.clearBg{
+  background-color: rgba(0, 0, 0, 0)!important;
+}
 
 .thisvideo {
   display: flex!important;
@@ -14,7 +21,8 @@
 }
 
 .mainBg {
-  background-image: url(./assets/images/newBG.jpg);
+  /* background-color: rgb(29, 2, 2)!important; */
+  background-image: url(./assets/images/firstBg.jpg);
   min-height: 100%;
 	min-width: 100%;
 	background-position: center;

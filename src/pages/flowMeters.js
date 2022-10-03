@@ -46,7 +46,7 @@ const FlowMeters = () => {
         changePage(1);
     }
     return (
-        <section className="flowSection">
+        <section className="darkBg flowSection">
             <div className="aboutMeterBox">
                 <FlowMags
                     currentPdf={currentPdf}
