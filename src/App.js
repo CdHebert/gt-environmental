@@ -1,24 +1,48 @@
-import logo from './logo.svg';
+// import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
+import Navbar from './components/Navbar';
+import FlowMeters from './pages/flowMeters';
+import SCADA from './pages/SCADA';
+import Services from './pages/services';
+import Home from './pages/hompage';
+import Contact from './components/Contact';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+
+      <section className="mainBg">
+        <Navbar />
+        <div>
+          <Switch>
+          <Route
+              exact
+              path="/">
+                <Home />
+            </Route>
+          <Route
+              exact
+              path="/meters">
+                <FlowMeters />
+            </Route>
+          <Route
+              exact
+              path="/scada">
+                <SCADA />
+            </Route>
+          <Route
+              exact
+              path="/services">
+                <Services />
+            </Route>
+          </Switch>
+        </div>
+        <Contact />
+      </section>
+    </Router>
   );
 }
 
