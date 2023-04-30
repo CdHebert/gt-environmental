@@ -1,0 +1,42 @@
+.c {
+  position: absolute;
+  max-width: 600px;
+  max-height: 600px;
+  width: 350px;
+  height: 300px;
+  display: flex;
+  cursor: pointer;
+  will-change: transform, opacity;
+}
+
+.front,
+.back {
+  background-size: cover;
+}
+
+.back {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(95, 158, 160, 0.4);
+    border-radius: 15px;
+    transition: ease 1000ms;
+  /* background-image: url(https://images.unsplash.com/photo-1544511916-0148ccdeb877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1901&q=80i&auto=format&fit=crop); */
+}
+.back p {
+    align-self: center;
+}
+
+.front {
+    /* background-color: rgba(95, 158, 160, 0.4); */
+  /* background-image: url(https://images.unsplash.com/photo-1540206395-68808572332f?ixlib=rb-1.2.1&w=1181&q=80&auto=format&fit=crop); */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
